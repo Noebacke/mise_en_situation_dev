@@ -1,0 +1,13 @@
+#header {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+a {
+    width: 25%;
+    max-width: 200px;
+}
