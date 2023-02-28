@@ -5,7 +5,7 @@ import Home from './Home/Home';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Horaires from './Horaires/Horaires';
 import Trajet from './Trajet/Trajet';
-import Sudoku from './EasterEgg/Sudoku';
+import { Sudoku } from './EasterEgg/Sudoku';
 import TrajetRecherche from './Trajet/TrajetRecherche';
 import TrajetResultat from './Trajet/TrajetResultat';
 import Loader from './Loader/Loader';

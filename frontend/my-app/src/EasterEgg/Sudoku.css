@@ -1,0 +1,56 @@
+#SudokuGrid {
+    display: flex;
+    flex-direction: column;
+}
+
+#SudokuRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#SudokuControls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#SudokuOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#row1 > button, 
+#row2 > button,
+#row3 > button {
+    width: 40px;
+    height: 40px;
+}
+
+.empty,
+.given,
+.digit {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.digit {
+    color: blue;
+}
+
+#SudokuControls {
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#DifficultyButtons {
+    margin-bottom: 20px;
+}
