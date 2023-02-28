@@ -13,7 +13,7 @@ function SudokuRow ({ row, i, setSelectedCell}) {
                             fontSize: cell.isPenciled ? "0.58em" : "2em",
                         }}
                         className= {cell.value === '.' ? "empty" : cell.isGiven ? "given" : "digit"} 
-                        value={cell.isPenciled ? cell.pencilmarks.join('') : cell.value === '.' ? '' : cell.value}
+                        value={cell === '.' ? '' : cell.isPenciled ? cell.pencilmarks.join('') : cell.value === '.' ? '' : cell.value}
                         type="text"
                         onSelect={ () => {
                             setSelectedCell([i, j])}

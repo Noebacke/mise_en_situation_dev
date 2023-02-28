@@ -2,25 +2,30 @@ function setCellValue(grid, selectedCell, value, setGrid, isPencil) {
     const x = selectedCell[0];
     const y = selectedCell[1];
 
-    console.log(x, y);
     if (grid[x][y].isGiven) {
         return;
     }
 
     const newGrid = [...grid];
+
     if (isPencil) {
         if (newGrid[x][y].pencilmarks.includes(value)) {
             newGrid[x][y].pencilmarks = newGrid[x][y].pencilmarks.filter((mark) => mark !== value);
             newGrid[x][y].isPenciled = newGrid[x][y].pencilmarks.length > 0;
-        } else {
-            newGrid[x][y].pencilmarks.push(value);
-            newGrid[x][y].pencilmarks.sort();
-            newGrid[x][y].isPenciled = true;
+            setGrid(newGrid);
+            return;
         }
-    } else {
-        newGrid[x][y].value = value;
-    }
 
+        newGrid[x][y].pencilmarks.push(value);
+        newGrid[x][y].pencilmarks.sort();
+        newGrid[x][y].isPenciled = true;
+        setGrid(newGrid);
+        return;
+        }
+
+    newGrid[x][y].value = value;
+    newGrid[x][y].isPenciled = false;
+    newGrid[x][y].pencilmarks = [];
     setGrid(newGrid);
 }
 
@@ -66,4 +71,4 @@ const SudokuControls = ({ selectedCell, setGrid, grid, isPencil }) => {
     )
 }
 
-export default SudokuControls
+export { SudokuControls, setCellValue }

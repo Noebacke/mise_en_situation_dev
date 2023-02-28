@@ -1,7 +1,7 @@
 import { SudokuBoard } from './SudokuBoard';
 import { SudokuCell } from './SudokuCell';
 import { useState } from 'react';
-import SudokuControls from './SudokuControls';
+import { SudokuControls, setCellValue } from './SudokuControls';
 import './Sudoku.css';
 var config = require('./conf.json');
 
@@ -70,7 +70,7 @@ async function generateSudoku(difficulty, setGrid, setSolvedGrid, setIsSolved) {
         }
     };
 
-    let puzzle = fillGrid(setGrid, difficulty, options);
+    let puzzle = await fillGrid(setGrid, difficulty, options);
     fillSolvedSudoku(setSolvedGrid, puzzle, options);
 }
 
@@ -100,6 +100,7 @@ const Sudoku = () => {
             <div id="SudokuOptions">
                 <button onClick={() => checkIsSolved(grid, solvedGrid, setIsSolved)}>Check</button>
                 <button onClick={() => setIsPencil(!isPencil)} style={{backgroundColor: isPencil ? "darkgrey" : "white"}}>Pencil</button>
+                <button onClick={() => setCellValue(grid, selectedCell, '.', setGrid, false)}>Clear cell</button>
             </div>
             <SudokuControls selectedCell={selectedCell} setGrid={setGrid} grid={grid} isPencil={isPencil} />
         </div>

@@ -42,7 +42,8 @@
     font-size: 30px;
 }
 
-.digit {
+.digit,
+.empty {
     color: blue;
 }
 
