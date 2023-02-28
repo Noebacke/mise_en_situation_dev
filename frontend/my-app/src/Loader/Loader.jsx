@@ -10,7 +10,6 @@ const Loader = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            console.log('Hello, World!')
             setVisible(false);
         }, 7500)
     }, []);
