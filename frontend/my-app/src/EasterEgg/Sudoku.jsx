@@ -3,6 +3,7 @@ import { SudokuCell } from './SudokuCell';
 import { useState } from 'react';
 import SudokuControls from './SudokuControls';
 import './Sudoku.css';
+var config = require('./conf.json');
 
 function checkIsSolved(grid, solvedGrid, setIsSolved) {
     for (let i = 0; i < 9; i++) {
@@ -64,7 +65,7 @@ async function generateSudoku(difficulty, setGrid, setSolvedGrid, setIsSolved) {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'f9b91f0ffcmsh3a8de3500d8810ap1da5f4jsn96910048d5db',
+            'X-RapidAPI-Key': config.key,
             'X-RapidAPI-Host': 'sudoku-generator1.p.rapidapi.com'
         }
     };
