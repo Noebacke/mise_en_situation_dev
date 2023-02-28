@@ -7,15 +7,15 @@ const Home = () => {
         <div className='home'>
             <Link className='link-bloc' to='/horaires'>
                 <p>Horaires en temps réel</p>
-                <img src={fleche_droite} alt='vers les horaires' />
+                <img className='fleche' src={fleche_droite} alt='vers les horaires' />
             </Link>
             <Link className='link-bloc' to='/trajet'>
                 <p>Calculer mon trajet</p>
-                <img src={fleche_droite} alt='vers le calcul du trajet' />
+                <img className='fleche' src={fleche_droite} alt='vers le calcul du trajet' />
             </Link>
             <Link className='link-bloc' to='/sudoku'>
                 <p>SUDOKU</p>
-                <img src={fleche_droite} alt='vers le sudoku' />
+                <img className='fleche' src={fleche_droite} alt='vers le sudoku' />
             </Link>
         </div >
     )
