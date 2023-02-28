@@ -1,7 +1,7 @@
 const Horaires = () => {
     return (
         <>
-            <h1>HORAIRES</h1>
+            <h1>Horaires</h1>
         </>
     )
 }

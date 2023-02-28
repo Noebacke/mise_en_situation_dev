@@ -13,6 +13,10 @@ const Home = () => {
                 <p>Calculer mon trajet</p>
                 <img src={fleche_droite} alt='vers le calcul du trajet' />
             </Link>
+            <Link className='link-bloc' to='/sudoku'>
+                <p>SUDOKU</p>
+                <img src={fleche_droite} alt='vers le sudoku' />
+            </Link>
         </div >
     )
 }
