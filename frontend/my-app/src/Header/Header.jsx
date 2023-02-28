@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import TBMarche from '../img/TBMarche.svg';
 import './Header.css';
 
@@ -6,9 +7,9 @@ const Header = () => {
 
     return (
         <div id="header">
-            <a href='/home'>
-                <img src={TBMarche} alt="TBMarche Logo" />
-            </a>
+            <Link to='/sudoku'>
+                <img id='logo' src={TBMarche} alt="TBMarche Logo" />
+            </Link>
         </div>
     )
 }

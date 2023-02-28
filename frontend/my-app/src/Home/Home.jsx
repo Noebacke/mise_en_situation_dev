@@ -1,18 +1,19 @@
-import './Home.scss';
-import fleche_gauche from '../img/fleche_gauche.svg'
+import './Home.css';
+import fleche_droite from '../img/fleche_droite.svg'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <>
-            <div className='bloc-lien'>
-                <a href='horaires'>Horaires en temps réel</a>
-                <img src={fleche_gauche} alt='vers les horaires' />
-            </div>
-            <div className='bloc-lien'>
-                <a href='trajet'>Calculer son trajet</a>
-                <img src={fleche_gauche} alt='vers le calcul du trajet' />
-            </div>
-        </>
+        <div className='home'>
+            <Link className='link-bloc' to='/horaires'>
+                <p>Horaires en temps réel</p>
+                <img src={fleche_droite} alt='vers les horaires' />
+            </Link>
+            <Link className='link-bloc' to='/trajet'>
+                <p>Calculer mon trajet</p>
+                <img src={fleche_droite} alt='vers le calcul du trajet' />
+            </Link>
+        </div >
     )
 }
 
