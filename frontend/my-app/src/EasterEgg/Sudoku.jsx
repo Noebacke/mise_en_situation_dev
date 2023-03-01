@@ -3,6 +3,10 @@ import { SudokuCell } from './SudokuCell';
 import { useState } from 'react';
 import { SudokuControls, setCellValue } from './SudokuControls';
 import './Sudoku.css';
+import { Link } from 'react-router-dom';
+import fleche_gauche from '../img/fleche_gauche.svg'
+import Header from '../Header/Header';
+
 var config = require('./conf.json');
 
 function checkIsSolved(grid, solvedGrid, setIsSolved) {
@@ -83,28 +87,34 @@ const Sudoku = () => {
     const [isPencil, setIsPencil] = useState(false);
 
     return (
-        <div className='SudokuPage'>
-            <div id="DifficultyButtons">
-                <button onClick={() => generateSudoku('easy', setGrid, setSolvedGrid, setIsSolved)}>Easy</button>
-                <button onClick={() => generateSudoku('medium', setGrid, setSolvedGrid, setIsSolved)}>Medium</button>
-                <button onClick={() => generateSudoku('hard', setGrid, setSolvedGrid, setIsSolved)}>Hard</button>
-            </div>
-
-            {isSolved ? <h1>YOU WIN!</h1> : <></>}
-
-            <div id="SudokuGrid">
-                <SudokuBoard grid={grid} setSelectedCell={setSelectedCell} />
-            </div>
-
-            <div id="SudokuControls">
-                <div id="SudokuOptions">
-                    <button onClick={() => checkIsSolved(grid, solvedGrid, setIsSolved)}>Check</button>
-                    <button onClick={() => setIsPencil(!isPencil)} style={{ backgroundColor: isPencil ? "darkgrey" : "white" }}>Pencil</button>
-                    <button onClick={() => setCellValue(grid, selectedCell, '.', setGrid, false)}>Clear cell</button>
+        <>
+            <Header />
+            <div className='SudokuPage'>
+                <Link className='retour' to='/'>
+                    <img className='fleche' src={fleche_gauche} alt='vers les horaires' />
+                </Link>
+                <div id="DifficultyButtons">
+                    <button onClick={() => generateSudoku('easy', setGrid, setSolvedGrid, setIsSolved)}>Easy</button>
+                    <button onClick={() => generateSudoku('medium', setGrid, setSolvedGrid, setIsSolved)}>Medium</button>
+                    <button onClick={() => generateSudoku('hard', setGrid, setSolvedGrid, setIsSolved)}>Hard</button>
                 </div>
-                <SudokuControls selectedCell={selectedCell} setGrid={setGrid} grid={grid} isPencil={isPencil} />
+
+                {isSolved ? <h1>YOU WIN!</h1> : <></>}
+
+                <div id="SudokuGrid">
+                    <SudokuBoard grid={grid} setSelectedCell={setSelectedCell} />
+                </div>
+
+                <div id="SudokuControls">
+                    <div id="SudokuOptions">
+                        <button onClick={() => checkIsSolved(grid, solvedGrid, setIsSolved)}>Check</button>
+                        <button onClick={() => setIsPencil(!isPencil)} style={{ backgroundColor: isPencil ? "darkgrey" : "white" }}>Pencil</button>
+                        <button onClick={() => setCellValue(grid, selectedCell, '.', setGrid, false)}>Clear cell</button>
+                    </div>
+                    <SudokuControls selectedCell={selectedCell} setGrid={setGrid} grid={grid} isPencil={isPencil} />
+                </div>
             </div>
-        </div>
+        </>
     )
 }
 

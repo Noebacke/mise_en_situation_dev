@@ -1,5 +1,4 @@
 import './App.css';
-import Header from './Header/Header';
 import Home from './Home/Home';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -9,21 +8,22 @@ import { Sudoku } from './EasterEgg/Sudoku';
 import TrajetRecherche from './Trajet/TrajetRecherche';
 import TrajetResultat from './Trajet/TrajetResultat';
 import Loader from './Loader/Loader';
+import Contact from './Contact/Contact';
 
 function App() {
   return (
     <>
-    <Loader/>
-    <Header/>
-    
+    <Loader/>   
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="horaires" element={<Horaires />} />
+        <Route path="horaires/results" element={<Horaires />} />
         <Route path="trajet" element={<Trajet />} />
-        <Route path="trajetRecherche" element={<TrajetRecherche />} />
-        <Route path="trajetResultat" element={<TrajetResultat />} />
-        <Route path="sudoku" element={<Sudoku/>} /> 
+        <Route path="trajet/search" element={<TrajetRecherche />} />
+        <Route path="trajet/results" element={<TrajetResultat />} />
+        <Route path="sudoku" element={<Sudoku/>} />
+        <Route path="contact" element={<Contact/>} /> 
       </Routes>
     </BrowserRouter>
 </>

@@ -1,6 +1,7 @@
 import './Horaires.css'
 import Select from 'react-select'
 import { useState } from 'react';
+import Header from '../Header/Header';
 
 const Horaires = () => {
 
@@ -30,6 +31,7 @@ const Horaires = () => {
 
     return (
         <>
+            <Header />
             <h1>Horaires</h1>
             <form>
                 <Select className='select' options={options} />

@@ -7,7 +7,9 @@ const Header = () => {
 
     return (
         <div id="header">
-            <img id='logo' src={TBMarche} alt="TBMarche Logo" />
+            <Link className='retour' to='/sudoku'>
+                <img id='logo' src={TBMarche} alt="TBMarche Logo" />
+            </Link>
         </div>
     )
 }

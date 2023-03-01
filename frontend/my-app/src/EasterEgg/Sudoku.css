@@ -56,6 +56,12 @@
     margin-bottom: 20px;
 }
 
+.SudokuPage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
 
 @media screen and (max-width: 380px) {
     .digit {
@@ -66,5 +72,10 @@
         align-items: center;
         text-align: center;
         font-size: 30px;
+    }
+
+    #SudokuControls {
+        justify-content: center;
+        margin-top: 15px;
     }
 }

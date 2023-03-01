@@ -32,7 +32,23 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.retour {
+  justify-self: flex-start;
+  width: fit-content;
+}
+
+.fleche {
+  width: 50px;
+  margin: 0px;
+}
+
+.retour .fleche {
+  width: 30px;
 }
