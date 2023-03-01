@@ -1,0 +1,15 @@
+.select {
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.submit-button {
+    width: 200px;
+}

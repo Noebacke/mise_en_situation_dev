@@ -9,7 +9,7 @@ function checkIsSolved(grid, solvedGrid, setIsSolved) {
     for (let i = 0; i < 9; i++) {
         for (let j = 0; j < 9; j++) {
             if (grid[i][j].value !== solvedGrid[i][j]) {
-                 return;
+                return;
             }
         }
     }
@@ -18,7 +18,7 @@ function checkIsSolved(grid, solvedGrid, setIsSolved) {
 
 async function fillGrid(setGrid, difficulty, options) {
     try {
-    let res = await fetch(`https://sudoku-generator1.p.rapidapi.com/sudoku/generate?&difficulty=${difficulty}`, options)
+        let res = await fetch(`https://sudoku-generator1.p.rapidapi.com/sudoku/generate?&difficulty=${difficulty}`, options)
         let puzzle = await res.json();
         puzzle = puzzle.puzzle;
         let grid = new Array(9);
@@ -60,7 +60,7 @@ async function fillSolvedSudoku(setSolvedGrid, puzzle, options) {
 
 async function generateSudoku(difficulty, setGrid, setSolvedGrid, setIsSolved) {
     setIsSolved(false);
-    
+
     console.log(`generating ${difficulty} sudoku...`)
     const options = {
         method: 'GET',
@@ -75,7 +75,7 @@ async function generateSudoku(difficulty, setGrid, setSolvedGrid, setIsSolved) {
 }
 
 const Sudoku = () => {
-    
+
     const [grid, setGrid] = useState(new Array(9).fill(new Array(9).fill('.')));
     const [selectedCell, setSelectedCell] = useState([0, 0]);
     const [solvedGrid, setSolvedGrid] = useState(new Array(9).fill(new Array(9).fill('.')));
@@ -83,28 +83,28 @@ const Sudoku = () => {
     const [isPencil, setIsPencil] = useState(false);
 
     return (
-    <>
-        <div id="DifficultyButtons">
-            <button onClick={() => generateSudoku('easy', setGrid, setSolvedGrid, setIsSolved)}>Easy</button>
-            <button onClick={() => generateSudoku('medium', setGrid, setSolvedGrid, setIsSolved)}>Medium</button>
-            <button onClick={() => generateSudoku('hard', setGrid, setSolvedGrid, setIsSolved)}>Hard</button>
-        </div>
-
-        {isSolved ? <h1>YOU WIN!</h1> : <></>}
-
-        <div id="SudokuGrid">
-            <SudokuBoard grid={grid} setSelectedCell={setSelectedCell}/>
-        </div>
-
-        <div id="SudokuControls">
-            <div id="SudokuOptions">
-                <button onClick={() => checkIsSolved(grid, solvedGrid, setIsSolved)}>Check</button>
-                <button onClick={() => setIsPencil(!isPencil)} style={{backgroundColor: isPencil ? "darkgrey" : "white"}}>Pencil</button>
-                <button onClick={() => setCellValue(grid, selectedCell, '.', setGrid, false)}>Clear cell</button>
+        <div className='SudokuPage'>
+            <div id="DifficultyButtons">
+                <button onClick={() => generateSudoku('easy', setGrid, setSolvedGrid, setIsSolved)}>Easy</button>
+                <button onClick={() => generateSudoku('medium', setGrid, setSolvedGrid, setIsSolved)}>Medium</button>
+                <button onClick={() => generateSudoku('hard', setGrid, setSolvedGrid, setIsSolved)}>Hard</button>
             </div>
-            <SudokuControls selectedCell={selectedCell} setGrid={setGrid} grid={grid} isPencil={isPencil} />
+
+            {isSolved ? <h1>YOU WIN!</h1> : <></>}
+
+            <div id="SudokuGrid">
+                <SudokuBoard grid={grid} setSelectedCell={setSelectedCell} />
+            </div>
+
+            <div id="SudokuControls">
+                <div id="SudokuOptions">
+                    <button onClick={() => checkIsSolved(grid, solvedGrid, setIsSolved)}>Check</button>
+                    <button onClick={() => setIsPencil(!isPencil)} style={{ backgroundColor: isPencil ? "darkgrey" : "white" }}>Pencil</button>
+                    <button onClick={() => setCellValue(grid, selectedCell, '.', setGrid, false)}>Clear cell</button>
+                </div>
+                <SudokuControls selectedCell={selectedCell} setGrid={setGrid} grid={grid} isPencil={isPencil} />
+            </div>
         </div>
-    </>
     )
 }
 
