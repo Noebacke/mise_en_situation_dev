@@ -1,0 +1,1917 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:gis="http://www.opengis.net/gml/3.2" xmlns:siri="http://www.siri.org.uk/siri" version="1.1:FR-NETEX_RESEAU-2.2">
+  <PublicationTimestamp>2023-02-27T00:18:19Z</PublicationTimestamp>
+  <ParticipantRef>BORDEAUX_METROPOLE</ParticipantRef>
+  <dataObjects>
+    <CompositeFrame version="any" id="BORDEAUX_METROPOLE:CompositeFrame:NETEX_RESEAUX-LOC">
+      <Name>Spécifique 95</Name>
+      <TypeOfFrameRef ref="FR:TypeOfFrame:NETEX_RESEAUX:">version="1.1:FR-NETEX_RESEAUX-2.2"</TypeOfFrameRef>
+      <frames>
+        <GeneralFrame version="any" id="BORDEAUX_METROPOLE:NETEX_LIGNE-20230227001819Z:LOC">
+          <TypeOfFrameRef ref="FR:TypeOfFrame:NETEX_LIGNE:">version="1.1:FR-NETEX_LIGNE-2.2"</TypeOfFrameRef>
+          <members>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689895:LOC">
+              <Distance>452.7</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689895">
+                <gis:posList count="76" srsDimension="2">44.928333 -0.482969 44.928234 -0.483026 44.928157 -0.483071 44.928105 -0.483082 44.928062 -0.483084 44.928008 -0.483092 44.92795 -0.483109 44.927916 -0.483127 44.927872 -0.483127 44.927725 -0.483195 44.927634 -0.483232 44.927324 -0.483366 44.927259 -0.483395 44.927201 -0.483437 44.927158 -0.483487 44.927124 -0.48354 44.927083 -0.483637 44.927062 -0.48375 44.927059 -0.483834 44.927059 -0.483884 44.927084 -0.484344 44.927092 -0.484595 44.927072 -0.484794 44.927045 -0.484989 44.927041 -0.485019 44.926973 -0.485272 44.926881 -0.485613 44.926731 -0.486059 44.926658 -0.486274 44.926604 -0.486452 44.926566 -0.486539 44.92654 -0.486578 44.926527 -0.486601 44.926511 -0.486636 44.926491 -0.486672 44.926606 -0.48683 44.926635 -0.486869 44.926793 -0.487086</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1831ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba2146ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689896:LOC">
+              <Distance>352.2</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689896">
+                <gis:posList count="90" srsDimension="2">44.926793 -0.487086 44.926866 -0.487188 44.926927 -0.487257 44.926948 -0.487278 44.926962 -0.487266 44.926977 -0.48726 44.926993 -0.487262 44.927009 -0.487268 44.927022 -0.487281 44.927032 -0.4873 44.927038 -0.487323 44.927039 -0.487347 44.927035 -0.48737 44.927026 -0.48739 44.927012 -0.487406 44.926996 -0.487415 44.926979 -0.487417 44.926962 -0.487411 44.926949 -0.4874 44.926926 -0.487421 44.926897 -0.487472 44.926762 -0.487654 44.926717 -0.487735 44.926678 -0.487788 44.926575 -0.487933 44.926481 -0.488065 44.926407 -0.488167 44.926353 -0.488244 44.926109 -0.488596 44.926078 -0.488642 44.92606 -0.488702 44.926049 -0.488761 44.926052 -0.488814 44.926065 -0.488868 44.926119 -0.488964 44.926216 -0.489099 44.926412 -0.489372 44.926588 -0.48961 44.926632 -0.489661 44.926666 -0.489703 44.926721 -0.489786 44.926889 -0.490036 44.926913 -0.490071 44.926926 -0.490092 44.926973 -0.490169</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba2146ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1821ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689897:LOC">
+              <Distance>541.1</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689897">
+                <gis:posList count="50" srsDimension="2">44.926973 -0.490169 44.927044 -0.490288 44.92714 -0.49045 44.927373 -0.491155 44.927435 -0.491336 44.927477 -0.491444 44.92753 -0.491617 44.927561 -0.491673 44.927585 -0.491712 44.927626 -0.491788 44.927738 -0.491978 44.927795 -0.492075 44.927872 -0.492202 44.928196 -0.492876 44.928349 -0.493213 44.928494 -0.493558 44.928772 -0.494251 44.928804 -0.494328 44.928831 -0.494387 44.928881 -0.494476 44.929115 -0.494848 44.929148 -0.494895 44.929446 -0.495372 44.929619 -0.495654 44.929712 -0.495799</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1821ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba2099ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689898:LOC">
+              <Distance>754.7</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689898">
+                <gis:posList count="146" srsDimension="2">44.929712 -0.495799 44.929771 -0.495897 44.92981 -0.495959 44.92983 -0.495992 44.929874 -0.495958 44.929907 -0.495953 44.929938 -0.495964 44.929966 -0.495988 44.929987 -0.496023 44.929998 -0.496058 44.930001 -0.496096 44.929998 -0.496134 44.929987 -0.496169 44.929965 -0.496206 44.929935 -0.49623 44.929901 -0.496239 44.929867 -0.496231 44.929837 -0.496208 44.929787 -0.496321 44.929744 -0.496388 44.929677 -0.49653 44.929574 -0.496504 44.929552 -0.496503 44.929463 -0.496496 44.929398 -0.496517 44.92921 -0.496575 44.92916 -0.496608 44.929135 -0.496634 44.929097 -0.496703 44.929088 -0.496732 44.929063 -0.496811 44.929034 -0.496917 44.929 -0.497043 44.928955 -0.497184 44.928828 -0.497635 44.928789 -0.497817 44.92878 -0.497888 44.928766 -0.497973 44.928753 -0.498134 44.928752 -0.498294 44.928759 -0.498486 44.928768 -0.498656 44.928791 -0.499073 44.928806 -0.499414 44.92881 -0.499569 44.928808 -0.499785 44.928785 -0.499927 44.928758 -0.500079 44.928713 -0.500257 44.92866 -0.500411 44.928604 -0.500542 44.928531 -0.500678 44.928411 -0.500893 44.928331 -0.501059 44.928271 -0.50125 44.928222 -0.501411 44.928172 -0.501569 44.928113 -0.501765 44.928056 -0.50195 44.928015 -0.50206 44.927942 -0.502151 44.927823 -0.502282 44.927749 -0.502356 44.927667 -0.502441 44.927601 -0.502508 44.927567 -0.502555 44.927539 -0.502615 44.927528 -0.502652 44.927519 -0.502679 44.927518 -0.502751 44.927522 -0.502818 44.927584 -0.502976 44.927744 -0.503316</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba2099ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1698ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689899:LOC">
+              <Distance>315.4</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689899">
+                <gis:posList count="28" srsDimension="2">44.927744 -0.503316 44.927791 -0.503415 44.928081 -0.504039 44.928202 -0.504321 44.928312 -0.50463 44.928393 -0.504889 44.928425 -0.505007 44.928446 -0.505079 44.928584 -0.505517 44.928611 -0.505658 44.92875 -0.506482 44.928796 -0.506643 44.928837 -0.506804 44.928858 -0.50696</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1698ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1823ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689900:LOC">
+              <Distance>203.1</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689900">
+                <gis:posList count="30" srsDimension="2">44.928858 -0.50696 44.928863 -0.506995 44.928869 -0.507056 44.928873 -0.507118 44.928879 -0.5072 44.928902 -0.507373 44.928935 -0.507546 44.929031 -0.50789 44.929161 -0.508268 44.929295 -0.508606 44.929393 -0.508805 44.929435 -0.508883 44.929454 -0.508918 44.9295 -0.509004 44.92963 -0.509257</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1823ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1054ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689901:LOC">
+              <Distance>518.0</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689901">
+                <gis:posList count="42" srsDimension="2">44.92963 -0.509257 44.929706 -0.509424 44.929762 -0.509601 44.929832 -0.509813 44.929878 -0.509994 44.929912 -0.510058 44.929945 -0.510041 44.930133 -0.509956 44.930324 -0.509884 44.931116 -0.509692 44.931233 -0.509663 44.931685 -0.50955 44.931968 -0.509487 44.93232 -0.509402 44.932396 -0.509382 44.932427 -0.509374 44.932457 -0.509366 44.932833 -0.509276 44.933027 -0.509234 44.93378 -0.509153 44.933873 -0.509143</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1054ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1516ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689902:LOC">
+              <Distance>190.9</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689902">
+                <gis:posList count="16" srsDimension="2">44.933873 -0.509143 44.934187 -0.509109 44.934264 -0.509103 44.934226 -0.508915 44.934171 -0.508726 44.934109 -0.508543 44.933887 -0.507862 44.933732 -0.507393</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1516ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1996ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689903:LOC">
+              <Distance>371.6</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689903">
+                <gis:posList count="26" srsDimension="2">44.933732 -0.507393 44.933416 -0.506433 44.933279 -0.506015 44.933199 -0.505773 44.933038 -0.505293 44.932917 -0.504929 44.932749 -0.504413 44.932627 -0.504038 44.9325 -0.50365 44.93239 -0.5033 44.93237 -0.503235 44.932352 -0.50317 44.932333 -0.503108</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1996ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1837ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689904:LOC">
+              <Distance>442.9</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689904">
+                <gis:posList count="28" srsDimension="2">44.932333 -0.503108 44.932174 -0.502571 44.932246 -0.502509 44.932794 -0.502027 44.93361 -0.50131 44.933769 -0.501178 44.93397 -0.500996 44.934204 -0.500798 44.934269 -0.500744 44.934327 -0.50071 44.934395 -0.500679 44.934496 -0.500661 44.935282 -0.500745 44.935365 -0.500755</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1837ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3925ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689905:LOC">
+              <Distance>249.2</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689905">
+                <gis:posList count="18" srsDimension="2">44.935365 -0.500755 44.935505 -0.500771 44.935872 -0.500822 44.935995 -0.500849 44.936118 -0.500897 44.937238 -0.501388 44.937338 -0.501454 44.937326 -0.501615 44.93733 -0.50173</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3925ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3927ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689906:LOC">
+              <Distance>646.9</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689906">
+                <gis:posList count="20" srsDimension="2">44.93733 -0.50173 44.937369 -0.502054 44.937617 -0.50354 44.937719 -0.504213 44.937858 -0.505302 44.938054 -0.506863 44.938389 -0.509322 44.938389 -0.509363 44.938389 -0.50939 44.938449 -0.50979</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3927ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3929ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689907:LOC">
+              <Distance>579.1</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689907">
+                <gis:posList count="36" srsDimension="2">44.938449 -0.50979 44.938575 -0.510626 44.938575 -0.510676 44.938617 -0.510671 44.938841 -0.510604 44.939602 -0.510437 44.939999 -0.510362 44.940399 -0.510301 44.940597 -0.510311 44.94141 -0.510426 44.942246 -0.510536 44.942509 -0.510577 44.942588 -0.510586 44.942674 -0.510596 44.942757 -0.51061 44.942862 -0.510628 44.942934 -0.51064 44.943108 -0.510671</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3929ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1945ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689908:LOC">
+              <Distance>233.4</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689908">
+                <gis:posList count="10" srsDimension="2">44.943108 -0.510671 44.943354 -0.510714 44.944591 -0.510969 44.945129 -0.511065 44.945187 -0.511074</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1945ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba470ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689909:LOC">
+              <Distance>962.0</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689909">
+                <gis:posList count="66" srsDimension="2">44.945187 -0.511074 44.945459 -0.511116 44.945788 -0.511152 44.946446 -0.511218 44.946473 -0.511186 44.9465 -0.510157 44.946491 -0.508922 44.946493 -0.508879 44.946696 -0.508915 44.946863 -0.508965 44.946888 -0.508972 44.947338 -0.509104 44.947787 -0.509221 44.94788 -0.509248 44.948218 -0.509297 44.948244 -0.509301 44.948535 -0.509333 44.948825 -0.509349 44.948864 -0.50935 44.948904 -0.509353 44.948974 -0.509354 44.949151 -0.509374 44.949474 -0.509466 44.949605 -0.509471 44.949677 -0.509439 44.950093 -0.509213 44.950115 -0.5092 44.950599 -0.508949 44.950844 -0.508834 44.951088 -0.508708 44.951243 -0.508592 44.951265 -0.508574 44.951966 -0.508058</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba470ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba6332ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689910:LOC">
+              <Distance>398.1</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689910">
+                <gis:posList count="36" srsDimension="2">44.951966 -0.508058 44.952027 -0.508013 44.952077 -0.507959 44.952137 -0.507903 44.952158 -0.507943 44.952173 -0.507965 44.952243 -0.508099 44.952311 -0.508243 44.952363 -0.508391 44.952409 -0.508555 44.952678 -0.509926 44.952957 -0.511298 44.953043 -0.511743 44.953066 -0.511934 44.953098 -0.512088 44.953141 -0.512118 44.953279 -0.51214 44.953333 -0.512155</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba6332ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1840ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689911:LOC">
+              <Distance>319.7</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689911">
+                <gis:posList count="20" srsDimension="2">44.953333 -0.512155 44.953417 -0.512179 44.953445 -0.512186 44.954145 -0.512371 44.954366 -0.512425 44.954583 -0.512492 44.954874 -0.512604 44.95544 -0.51288 44.956004 -0.513168 44.956103 -0.513199</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1840ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1353ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689912:LOC">
+              <Distance>201.1</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689912">
+                <gis:posList count="14" srsDimension="2">44.956103 -0.513199 44.956219 -0.513236 44.956319 -0.513263 44.956422 -0.513269 44.956805 -0.513143 44.95719 -0.513028 44.957875 -0.512845</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1353ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba290ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689913:LOC">
+              <Distance>507.5</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689913">
+                <gis:posList count="38" srsDimension="2">44.957875 -0.512845 44.957915 -0.512834 44.957984 -0.512799 44.95805 -0.51274 44.958086 -0.512666 44.958082 -0.512516 44.958079 -0.5122 44.958087 -0.511947 44.958101 -0.511746 44.958118 -0.511584 44.958173 -0.511167 44.958397 -0.509868 44.95844 -0.509662 44.958517 -0.509348 44.958765 -0.508494 44.959021 -0.507648 44.959048 -0.507536 44.959155 -0.506972 44.959181 -0.506829</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba290ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1518ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689914:LOC">
+              <Distance>164.9</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689914">
+                <gis:posList count="18" srsDimension="2">44.959181 -0.506829 44.959189 -0.506788 44.959224 -0.506579 44.959283 -0.506053 44.959316 -0.505636 44.959319 -0.505472 44.959286 -0.504986 44.959286 -0.504887 44.959302 -0.504754</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1518ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba2017ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689915:LOC">
+              <Distance>445.9</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689915">
+                <gis:posList count="42" srsDimension="2">44.959302 -0.504754 44.95932 -0.50461 44.959423 -0.503998 44.959699 -0.503353 44.959781 -0.503116 44.959838 -0.502864 44.959873 -0.502552 44.959883 -0.502236 44.959869 -0.502049 44.959837 -0.501867 44.959772 -0.501655 44.959737 -0.501548 44.959694 -0.501454 44.959628 -0.501332 44.959573 -0.50125 44.959512 -0.501179 44.959272 -0.500954 44.959027 -0.500742 44.958802 -0.500517 44.958582 -0.500284 44.958483 -0.500188</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba2017ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1926ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689916:LOC">
+              <Distance>482.7</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689916">
+                <gis:posList count="54" srsDimension="2">44.958483 -0.500188 44.958447 -0.500152 44.958278 -0.500015 44.958194 -0.499966 44.958102 -0.499946 44.958033 -0.499948 44.957968 -0.499966 44.957829 -0.500034 44.957609 -0.500157 44.957389 -0.500271 44.957311 -0.500301 44.957231 -0.500322 44.957145 -0.500335 44.957058 -0.500339 44.956801 -0.500308 44.95655 -0.500276 44.956247 -0.500223 44.956098 -0.500177 44.955947 -0.500119 44.955842 -0.500063 44.955743 -0.499995 44.955656 -0.499925 44.955583 -0.499835 44.955433 -0.499588 44.955056 -0.498866 44.954888 -0.49845 44.954859 -0.498344</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1926ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba535ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689917:LOC">
+              <Distance>185.9</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689917">
+                <gis:posList count="18" srsDimension="2">44.954859 -0.498344 44.954581 -0.497333 44.954532 -0.497185 44.954497 -0.49707 44.954391 -0.497044 44.954315 -0.497044 44.95424 -0.497056 44.954103 -0.497074 44.953953 -0.496702</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba535ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3922ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689918:LOC">
+              <Distance>405.9</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689918">
+                <gis:posList count="26" srsDimension="2">44.953953 -0.496702 44.953813 -0.496356 44.953654 -0.496023 44.953488 -0.495697 44.953281 -0.495347 44.953206 -0.495243 44.952895 -0.494832 44.952719 -0.494596 44.952569 -0.494361 44.952303 -0.493916 44.952032 -0.493501 44.951759 -0.4931 44.951562 -0.492834</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3922ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1029ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689919:LOC">
+              <Distance>169.9</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689919">
+                <gis:posList count="14" srsDimension="2">44.951562 -0.492834 44.951472 -0.492696 44.95144 -0.492628 44.951378 -0.492489 44.951262 -0.492132 44.951098 -0.491549 44.95093 -0.490885</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1029ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba431ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689920:LOC">
+              <Distance>309.0</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689920">
+                <gis:posList count="28" srsDimension="2">44.95093 -0.490885 44.950897 -0.490753 44.950812 -0.490364 44.950733 -0.489971 44.950573 -0.489106 44.950514 -0.488654 44.950465 -0.488285 44.950415 -0.48804 44.950287 -0.487644 44.950279 -0.487595 44.950269 -0.48756 44.950171 -0.487597 44.950098 -0.487626 44.949955 -0.487688</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba431ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1898ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689921:LOC">
+              <Distance>369.2</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689921">
+                <gis:posList count="22" srsDimension="2">44.949955 -0.487688 44.948983 -0.488108 44.948767 -0.488228 44.947873 -0.48876 44.947745 -0.488834 44.947664 -0.488886 44.947584 -0.488925 44.947416 -0.489018 44.947293 -0.489071 44.946868 -0.489239 44.946831 -0.489252</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1898ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1862ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689922:LOC">
+              <Distance>223.7</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689922">
+                <gis:posList count="30" srsDimension="2">44.946831 -0.489252 44.946628 -0.489323 44.946423 -0.489371 44.946195 -0.489458 44.946041 -0.48951 44.94593 -0.489555 44.945641 -0.489658 44.945556 -0.48971 44.945406 -0.489772 44.945354 -0.489793 44.945263 -0.489828 44.945231 -0.489708 44.945207 -0.489643 44.945191 -0.489588 44.945113 -0.489321</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1862ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba5647ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689923:LOC">
+              <Distance>496.9</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689923">
+                <gis:posList count="70" srsDimension="2">44.945113 -0.489321 44.945089 -0.489238 44.945087 -0.489231 44.945032 -0.489074 44.944934 -0.488806 44.944814 -0.488537 44.944691 -0.488291 44.944578 -0.488103 44.944466 -0.487915 44.944232 -0.48758 44.944119 -0.487432 44.944009 -0.487294 44.943824 -0.487093 44.943642 -0.486905 44.943296 -0.486551 44.943246 -0.486508 44.943194 -0.48647 44.94309 -0.486409 44.942984 -0.486369 44.942857 -0.486337 44.942694 -0.486275 44.942439 -0.486143 44.942343 -0.486115 44.942256 -0.486057 44.942207 -0.486021 44.942169 -0.486003 44.942103 -0.486027 44.94204 -0.485994 44.942004 -0.485927 44.941999 -0.485837 44.941914 -0.485796 44.941862 -0.485749 44.941835 -0.485725 44.94175 -0.485642 44.941742 -0.485634</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba5647ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba5649ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689865:LOC">
+              <Distance>359.8</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689865">
+                <gis:posList count="52" srsDimension="2">44.94184 -0.485729 44.941862 -0.485749 44.941914 -0.485796 44.941999 -0.485837 44.94201 -0.485793 44.942044 -0.48574 44.94209 -0.485713 44.942126 -0.485713 44.9422 -0.485777 44.942221 -0.485876 44.942284 -0.485996 44.942387 -0.486093 44.942439 -0.486143 44.942694 -0.486275 44.942857 -0.486337 44.942984 -0.486369 44.94309 -0.486409 44.943194 -0.48647 44.943246 -0.486508 44.943296 -0.486551 44.943642 -0.486905 44.943824 -0.487093 44.944009 -0.487294 44.944119 -0.487432 44.944232 -0.48758 44.94447 -0.487922</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa5650ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa5648ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689866:LOC">
+              <Distance>229.3</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689866">
+                <gis:posList count="34" srsDimension="2">44.94447 -0.487922 44.944578 -0.488103 44.944691 -0.488291 44.944814 -0.488537 44.944934 -0.488806 44.945032 -0.489074 44.945087 -0.489231 44.945089 -0.489238 44.945191 -0.489588 44.945207 -0.489643 44.945231 -0.489708 44.945263 -0.489828 44.945354 -0.489793 44.945406 -0.489772 44.945556 -0.48971 44.945641 -0.489658 44.945727 -0.489627</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa5648ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa714ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689867:LOC">
+              <Distance>458.6</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689867">
+                <gis:posList count="32" srsDimension="2">44.945727 -0.489627 44.94593 -0.489555 44.946041 -0.48951 44.946195 -0.489458 44.946423 -0.489371 44.946628 -0.489323 44.946868 -0.489239 44.947293 -0.489071 44.947416 -0.489018 44.947584 -0.488925 44.947664 -0.488886 44.947745 -0.488834 44.947873 -0.48876 44.948767 -0.488228 44.948983 -0.488108 44.949637 -0.487825</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa714ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2156ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689868:LOC">
+              <Distance>337.2</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689868">
+                <gis:posList count="28" srsDimension="2">44.949637 -0.487825 44.950098 -0.487626 44.950171 -0.487597 44.950269 -0.48756 44.950279 -0.487595 44.950287 -0.487644 44.950415 -0.48804 44.950465 -0.488285 44.950514 -0.488654 44.950573 -0.489106 44.950733 -0.489971 44.950812 -0.490364 44.950897 -0.490753 44.950904 -0.49078</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2156ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1983ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689869:LOC">
+              <Distance>190.0</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689869">
+                <gis:posList count="16" srsDimension="2">44.950904 -0.49078 44.951098 -0.491549 44.951262 -0.492132 44.951378 -0.492489 44.95144 -0.492628 44.951472 -0.492696 44.951565 -0.492838 44.951635 -0.492933</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1983ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1988ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689870:LOC">
+              <Distance>430.1</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689870">
+                <gis:posList count="28" srsDimension="2">44.951635 -0.492933 44.951759 -0.4931 44.952032 -0.493501 44.952303 -0.493916 44.952569 -0.494361 44.952719 -0.494596 44.952895 -0.494832 44.953206 -0.495243 44.953281 -0.495347 44.953488 -0.495697 44.953654 -0.496023 44.953813 -0.496356 44.954103 -0.497074 44.954119 -0.497072</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1988ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3921ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689871:LOC">
+              <Distance>39.4</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689871">
+                <gis:posList count="10" srsDimension="2">44.954119 -0.497072 44.95424 -0.497056 44.954315 -0.497044 44.954391 -0.497044 44.954471 -0.497064</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3921ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1851ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689872:LOC">
+              <Distance>581.5</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689872">
+                <gis:posList count="58" srsDimension="2">44.954471 -0.497064 44.954497 -0.49707 44.954532 -0.497185 44.954581 -0.497333 44.954888 -0.49845 44.955056 -0.498866 44.955433 -0.499588 44.955583 -0.499835 44.955656 -0.499925 44.955743 -0.499995 44.955842 -0.500063 44.955947 -0.500119 44.956098 -0.500177 44.956247 -0.500223 44.95655 -0.500276 44.956801 -0.500308 44.957058 -0.500339 44.957145 -0.500335 44.957231 -0.500322 44.957311 -0.500301 44.957389 -0.500271 44.957609 -0.500157 44.957829 -0.500034 44.957968 -0.499966 44.958033 -0.499948 44.958102 -0.499946 44.958194 -0.499966 44.958278 -0.500015 44.95839 -0.500106</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1851ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2029ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689873:LOC">
+              <Distance>435.4</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689873">
+                <gis:posList count="42" srsDimension="2">44.95839 -0.500106 44.958447 -0.500152 44.958582 -0.500284 44.958802 -0.500517 44.959027 -0.500742 44.959272 -0.500954 44.959512 -0.501179 44.959573 -0.50125 44.959628 -0.501332 44.959694 -0.501454 44.959737 -0.501548 44.959772 -0.501655 44.959837 -0.501867 44.959869 -0.502049 44.959883 -0.502236 44.959873 -0.502552 44.959838 -0.502864 44.959781 -0.503116 44.959699 -0.503353 44.959423 -0.503998 44.959343 -0.504472</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2029ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2103ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689874:LOC">
+              <Distance>234.1</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689874">
+                <gis:posList count="22" srsDimension="2">44.959343 -0.504472 44.95932 -0.50461 44.959286 -0.504887 44.959286 -0.504986 44.959319 -0.505472 44.959316 -0.505636 44.959283 -0.506053 44.959224 -0.506579 44.959189 -0.506788 44.959155 -0.506972 44.959074 -0.5074</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2103ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1867ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689875:LOC">
+              <Distance>470.2</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689875">
+                <gis:posList count="36" srsDimension="2">44.959074 -0.5074 44.959048 -0.507536 44.959021 -0.507648 44.958765 -0.508494 44.958517 -0.509348 44.95844 -0.509662 44.958397 -0.509868 44.958173 -0.511167 44.958118 -0.511584 44.958101 -0.511746 44.958087 -0.511947 44.958079 -0.5122 44.958082 -0.512516 44.958086 -0.512666 44.95805 -0.51274 44.957984 -0.512799 44.957915 -0.512834 44.957794 -0.512866</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1867ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2038ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689876:LOC">
+              <Distance>215.7</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689876">
+                <gis:posList count="16" srsDimension="2">44.957794 -0.512866 44.95719 -0.513028 44.956805 -0.513143 44.956422 -0.513269 44.956319 -0.513263 44.956219 -0.513236 44.956004 -0.513168 44.955898 -0.513114</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2038ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1848ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689877:LOC">
+              <Distance>301.4</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689877">
+                <gis:posList count="18" srsDimension="2">44.955898 -0.513114 44.95544 -0.51288 44.954874 -0.512604 44.954583 -0.512492 44.954366 -0.512425 44.954145 -0.512371 44.953445 -0.512186 44.953417 -0.512179 44.953279 -0.51214</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1848ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2002ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689878:LOC">
+              <Distance>393.6</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689878">
+                <gis:posList count="34" srsDimension="2">44.953279 -0.51214 44.953141 -0.512118 44.953098 -0.512088 44.953066 -0.511934 44.953043 -0.511743 44.952957 -0.511298 44.952678 -0.509926 44.952409 -0.508555 44.952363 -0.508391 44.952311 -0.508243 44.952243 -0.508099 44.952173 -0.507965 44.952158 -0.507943 44.952137 -0.507903 44.952077 -0.507959 44.952027 -0.508013 44.951957 -0.508064</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2002ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa6333ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689879:LOC">
+              <Distance>990.1</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689879">
+                <gis:posList count="68" srsDimension="2">44.951957 -0.508064 44.951265 -0.508574 44.951243 -0.508592 44.951088 -0.508708 44.950844 -0.508834 44.950599 -0.508949 44.950115 -0.5092 44.950093 -0.509213 44.949677 -0.509439 44.949605 -0.509471 44.949474 -0.509466 44.949151 -0.509374 44.948974 -0.509354 44.948904 -0.509353 44.948864 -0.50935 44.948825 -0.509349 44.948535 -0.509333 44.948244 -0.509301 44.948218 -0.509297 44.94788 -0.509248 44.947787 -0.509221 44.947338 -0.509104 44.946888 -0.508972 44.946863 -0.508965 44.946696 -0.508915 44.946493 -0.508879 44.946491 -0.508922 44.9465 -0.510157 44.946473 -0.511186 44.946446 -0.511218 44.945788 -0.511152 44.945459 -0.511116 44.945129 -0.511065 44.944926 -0.511029</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa6333ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1984ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689880:LOC">
+              <Distance>275.6</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689880">
+                <gis:posList count="18" srsDimension="2">44.944926 -0.511029 44.944591 -0.510969 44.943354 -0.510714 44.942934 -0.51064 44.942862 -0.510628 44.942757 -0.51061 44.942762 -0.510484 44.942766 -0.510371 44.942776 -0.510203</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1984ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1936ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689881:LOC">
+              <Distance>694.8</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689881">
+                <gis:posList count="26" srsDimension="2">44.942776 -0.510203 44.94281 -0.509644 44.94292 -0.508292 44.942888 -0.508308 44.942754 -0.508352 44.942261 -0.508548 44.942066 -0.50858 44.940516 -0.508714 44.939578 -0.508945 44.938469 -0.509342 44.938389 -0.509363 44.938389 -0.509322 44.938342 -0.50898</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1936ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3930ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689882:LOC">
+              <Distance>576.5</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689882">
+                <gis:posList count="14" srsDimension="2">44.938342 -0.50898 44.938054 -0.506863 44.937858 -0.505302 44.937719 -0.504213 44.937617 -0.50354 44.937369 -0.502054 44.937338 -0.501798</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3930ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3928ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689883:LOC">
+              <Distance>249.8</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689883">
+                <gis:posList count="20" srsDimension="2">44.937338 -0.501798 44.93733 -0.501728 44.937326 -0.501615 44.937338 -0.501454 44.937238 -0.501388 44.936118 -0.500897 44.935995 -0.500849 44.935872 -0.500822 44.935505 -0.500771 44.935408 -0.50076</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3928ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3926ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689884:LOC">
+              <Distance>478.0</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689884">
+                <gis:posList count="34" srsDimension="2">44.935408 -0.50076 44.935282 -0.500745 44.934496 -0.500661 44.934395 -0.500679 44.934327 -0.50071 44.934269 -0.500744 44.934204 -0.500798 44.93397 -0.500996 44.933769 -0.501178 44.93361 -0.50131 44.932794 -0.502027 44.932246 -0.502509 44.932174 -0.502571 44.932352 -0.50317 44.93237 -0.503235 44.93239 -0.5033 44.932441 -0.503462</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3926ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa494ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689885:LOC">
+              <Distance>341.7</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689885">
+                <gis:posList count="20" srsDimension="2">44.932441 -0.503462 44.9325 -0.50365 44.932627 -0.504038 44.932749 -0.504413 44.932917 -0.504929 44.933038 -0.505293 44.933199 -0.505773 44.933279 -0.506015 44.933416 -0.506433 44.933734 -0.507398</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa494ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2589ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689886:LOC">
+              <Distance>187.7</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689886">
+                <gis:posList count="16" srsDimension="2">44.933734 -0.507398 44.933887 -0.507862 44.934109 -0.508543 44.934171 -0.508726 44.934226 -0.508915 44.934264 -0.509103 44.934187 -0.509109 44.933897 -0.50914</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2589ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2681ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689887:LOC">
+              <Distance>579.6</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689887">
+                <gis:posList count="52" srsDimension="2">44.933897 -0.50914 44.93378 -0.509153 44.933027 -0.509234 44.932833 -0.509276 44.932457 -0.509366 44.932427 -0.509374 44.932396 -0.509382 44.93232 -0.509402 44.931968 -0.509487 44.931685 -0.50955 44.931233 -0.509663 44.931116 -0.509692 44.930324 -0.509884 44.930133 -0.509956 44.929945 -0.510041 44.929912 -0.510058 44.929878 -0.509994 44.929832 -0.509813 44.929762 -0.509601 44.929706 -0.509424 44.92963 -0.509257 44.9295 -0.509004 44.929454 -0.508918 44.929435 -0.508883 44.929393 -0.508805 44.929318 -0.508652</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2681ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2288ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689888:LOC">
+              <Distance>221.6</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689888">
+                <gis:posList count="28" srsDimension="2">44.929318 -0.508652 44.929295 -0.508606 44.929161 -0.508268 44.929031 -0.50789 44.928935 -0.507546 44.928902 -0.507373 44.928879 -0.5072 44.928873 -0.507118 44.928869 -0.507056 44.928863 -0.506995 44.928837 -0.506804 44.928796 -0.506643 44.92875 -0.506482 44.928671 -0.506016</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2288ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2265ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689889:LOC">
+              <Distance>273.7</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689889">
+                <gis:posList count="24" srsDimension="2">44.928671 -0.506016 44.928611 -0.505658 44.928584 -0.505517 44.928446 -0.505079 44.928425 -0.505007 44.928393 -0.504889 44.928312 -0.50463 44.928202 -0.504321 44.928081 -0.504039 44.927791 -0.503415 44.927584 -0.502976 44.927568 -0.502936</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2265ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2249ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689890:LOC">
+              <Distance>699.0</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689890">
+                <gis:posList count="130" srsDimension="2">44.927568 -0.502936 44.927522 -0.502818 44.927518 -0.502751 44.927519 -0.502679 44.927528 -0.502652 44.927539 -0.502615 44.927567 -0.502555 44.927601 -0.502508 44.927667 -0.502441 44.927749 -0.502356 44.927823 -0.502282 44.927942 -0.502151 44.928015 -0.50206 44.928056 -0.50195 44.928113 -0.501765 44.928172 -0.501569 44.928222 -0.501411 44.928271 -0.50125 44.928331 -0.501059 44.928411 -0.500893 44.928531 -0.500678 44.928604 -0.500542 44.92866 -0.500411 44.928713 -0.500257 44.928758 -0.500079 44.928785 -0.499927 44.928808 -0.499785 44.92881 -0.499569 44.928806 -0.499414 44.928791 -0.499073 44.928768 -0.498656 44.928759 -0.498486 44.928752 -0.498294 44.928753 -0.498134 44.928766 -0.497973 44.92878 -0.497888 44.928789 -0.497817 44.928828 -0.497635 44.928955 -0.497184 44.929 -0.497043 44.929034 -0.496917 44.929063 -0.496811 44.929088 -0.496732 44.929097 -0.496703 44.929135 -0.496634 44.92916 -0.496608 44.92921 -0.496575 44.929398 -0.496517 44.929463 -0.496496 44.929552 -0.496503 44.929574 -0.496504 44.929677 -0.49653 44.929744 -0.496388 44.929787 -0.496321 44.929837 -0.496208 44.929815 -0.496175 44.929802 -0.496134 44.929799 -0.496089 44.929805 -0.496046 44.929821 -0.496007 44.92983 -0.495992 44.92981 -0.495959 44.929771 -0.495897 44.929709 -0.495794 44.929639 -0.495685</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2249ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2254ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689891:LOC">
+              <Distance>378.6</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689891">
+                <gis:posList count="32" srsDimension="2">44.929639 -0.495685 44.929619 -0.495654 44.929446 -0.495372 44.929148 -0.494895 44.929115 -0.494848 44.928881 -0.494476 44.928831 -0.494387 44.928804 -0.494328 44.928772 -0.494251 44.928494 -0.493558 44.928349 -0.493213 44.928196 -0.492876 44.927872 -0.492202 44.927795 -0.492075 44.927738 -0.491978 44.927641 -0.491814</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2254ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2573ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689892:LOC">
+              <Distance>191.6</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689892">
+                <gis:posList count="28" srsDimension="2">44.927641 -0.491814 44.927626 -0.491788 44.927585 -0.491712 44.927561 -0.491673 44.92753 -0.491617 44.927477 -0.491444 44.927435 -0.491336 44.927373 -0.491155 44.92714 -0.49045 44.927044 -0.490288 44.926926 -0.490092 44.926913 -0.490071 44.926889 -0.490036 44.926721 -0.489786</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2573ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2248ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689893:LOC">
+              <Distance>313.3</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689893">
+                <gis:posList count="64" srsDimension="2">44.926721 -0.489786 44.926666 -0.489703 44.926632 -0.489661 44.926588 -0.48961 44.926412 -0.489372 44.926216 -0.489099 44.926119 -0.488964 44.926065 -0.488868 44.926052 -0.488814 44.926049 -0.488761 44.92606 -0.488702 44.926078 -0.488642 44.926109 -0.488596 44.926353 -0.488244 44.926407 -0.488167 44.926481 -0.488065 44.926575 -0.487933 44.926678 -0.487788 44.926717 -0.487735 44.926762 -0.487654 44.926897 -0.487472 44.926926 -0.487421 44.926949 -0.4874 44.926935 -0.487377 44.926928 -0.487351 44.926929 -0.487324 44.926935 -0.487298 44.926948 -0.487278 44.926927 -0.487257 44.926866 -0.487188 44.926793 -0.487086 44.926664 -0.486908</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2248ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2006ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <RouteLink version="any" id="BORDEAUX_METROPOLE:RouteLink:689894:LOC">
+              <Distance>480.2</Distance>
+              <gis:LineString srsName="4326" srsDimension="2" gis:id="LS689894">
+                <gis:posList count="82" srsDimension="2">44.926664 -0.486908 44.926635 -0.486869 44.926606 -0.48683 44.926491 -0.486672 44.926511 -0.486636 44.926527 -0.486601 44.92654 -0.486578 44.926566 -0.486539 44.926604 -0.486452 44.926658 -0.486274 44.926731 -0.486059 44.926881 -0.485613 44.926973 -0.485272 44.927041 -0.485019 44.927045 -0.484989 44.927072 -0.484794 44.927092 -0.484595 44.927084 -0.484344 44.927059 -0.483884 44.927059 -0.483834 44.927062 -0.48375 44.927083 -0.483637 44.927124 -0.48354 44.927158 -0.483487 44.927201 -0.483437 44.927259 -0.483395 44.927324 -0.483366 44.927634 -0.483232 44.927725 -0.483195 44.927872 -0.483127 44.92791 -0.483081 44.927953 -0.483057 44.928024 -0.483042 44.928104 -0.483014 44.928183 -0.482968 44.928311 -0.482892 44.92839 -0.482856 44.928462 -0.482847 44.928475 -0.482843 44.928571 -0.482817 44.928715 -0.482728</gis:posList>
+              </gis:LineString>
+              <FromPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2006ScheduledScheduled:LOC" version="any"/>
+              <ToPointRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ScheduledStopPointRefStructure" ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1818ScheduledScheduled:LOC" version="any"/>
+            </RouteLink>
+            <Route version="any" id="BORDEAUX_METROPOLE:Route:95_C526B562773E664ECDC24EEB730C691B:LOC">
+              <Name>Collège Claude Massé -> Parabelle (arrêt de Descente)</Name>
+              <LineRef ref="BORDEAUX_METROPOLE:Line:95:LOC" versionRef="any"/>
+              <DirectionType>outbound</DirectionType>
+              <DirectionRef ref="BORDEAUX_METROPOLE:Direction:95_C526B562773E664ECDC24EEB730C691B:LOC" version="any"/>
+            </Route>
+            <Route version="any" id="BORDEAUX_METROPOLE:Route:95_47C1C50E221E34A2AFA9615AA99CB70F:LOC">
+              <Name>Parabelle -> Collège Claude Massé</Name>
+              <LineRef ref="BORDEAUX_METROPOLE:Line:95:LOC" versionRef="any"/>
+              <DirectionType>inbound</DirectionType>
+              <DirectionRef ref="BORDEAUX_METROPOLE:Direction:95_47C1C50E221E34A2AFA9615AA99CB70F:LOC" version="any"/>
+            </Route>
+            <Direction version="any" id="BORDEAUX_METROPOLE:Direction:95_C526B562773E664ECDC24EEB730C691B:LOC">
+              <Name>Parabelle (arrêt de Descente)</Name>
+            </Direction>
+            <Direction version="any" id="BORDEAUX_METROPOLE:Direction:95_47C1C50E221E34A2AFA9615AA99CB70F:LOC">
+              <Name>Collège Claude Massé</Name>
+            </Direction>
+            <ServiceJourneyPattern version="any" id="BORDEAUX_METROPOLE:ServiceJourneyPattern:95_C526B562773E664ECDC24EEB730C691B:LOC">
+              <Name>AMBARES Parabelle</Name>
+              <RouteRef ref="BORDEAUX_METROPOLE:Route:95_C526B562773E664ECDC24EEB730C691B:LOC" version="any"/>
+              <DestinationDisplayRef ref="BORDEAUX_METROPOLE:DestinationDisplay:95_C526B562773E664ECDC24EEB730C691B-95_C526B562773E664ECDC24EEB730C691Ba1831ScheduledScheduled:LOC" version="any"/>
+              <pointsInSequence>
+                <StopPointInJourneyPattern order="1" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba1831ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1831ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="2" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba2146ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba2146ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="3" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba1821ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1821ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="4" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba2099ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba2099ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="5" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba1698ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1698ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="6" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba1823ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1823ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="7" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba1054ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1054ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="8" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba1516ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1516ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="9" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba1996ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1996ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="10" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba1837ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1837ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="11" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba3925ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3925ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="12" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba3927ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3927ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="13" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba3929ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3929ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="14" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba1945ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1945ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="15" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba470ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba470ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="16" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba6332ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba6332ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="17" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba1840ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1840ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="18" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba1353ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1353ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="19" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba290ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba290ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="20" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba1518ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1518ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="21" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba2017ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba2017ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="22" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba1926ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1926ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="23" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba535ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba535ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="24" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba3922ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3922ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="25" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba1029ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1029ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="26" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba431ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba431ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="27" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba1898ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1898ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="28" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba1862ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1862ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="29" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba5647ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba5647ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="30" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_C526B562773E664ECDC24EEB730C691Ba5649ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba5649ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+              </pointsInSequence>
+              <ServiceJourneyPatternType>passenger</ServiceJourneyPatternType>
+            </ServiceJourneyPattern>
+            <ServiceJourneyPattern version="any" id="BORDEAUX_METROPOLE:ServiceJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70F:LOC">
+              <Name>AMBARES Collège C. Massé</Name>
+              <RouteRef ref="BORDEAUX_METROPOLE:Route:95_47C1C50E221E34A2AFA9615AA99CB70F:LOC" version="any"/>
+              <DestinationDisplayRef ref="BORDEAUX_METROPOLE:DestinationDisplay:95_47C1C50E221E34A2AFA9615AA99CB70F-95_47C1C50E221E34A2AFA9615AA99CB70Fa5650ScheduledScheduled:LOC" version="any"/>
+              <pointsInSequence>
+                <StopPointInJourneyPattern order="1" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa5650ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa5650ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="2" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa5648ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa5648ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="3" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa714ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa714ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="4" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa2156ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2156ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="5" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa1983ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1983ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="6" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa1988ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1988ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="7" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa3921ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3921ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="8" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa1851ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1851ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="9" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa2029ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2029ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="10" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa2103ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2103ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="11" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa1867ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1867ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="12" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa2038ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2038ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="13" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa1848ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1848ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="14" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa2002ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2002ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="15" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa6333ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa6333ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="16" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa1984ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1984ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="17" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa1936ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1936ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="18" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa3930ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3930ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="19" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa3928ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3928ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="20" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa3926ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3926ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="21" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa494ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa494ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="22" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa2589ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2589ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="23" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa2681ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2681ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="24" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa2288ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2288ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="25" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa2265ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2265ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="26" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa2249ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2249ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="27" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa2254ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2254ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="28" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa2573ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2573ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="29" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa2248ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2248ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="30" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa2006ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2006ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="31" version="any" id="BORDEAUX_METROPOLE:StopPointInJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70Fa1818ScheduledScheduled:LOC">
+                  <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1818ScheduledScheduled:LOC" version="any"/>
+                  <ForAlighting>true</ForAlighting>
+                  <ForBoarding>true</ForBoarding>
+                  <RequestStop>false</RequestStop>
+                </StopPointInJourneyPattern>
+              </pointsInSequence>
+              <ServiceJourneyPatternType>passenger</ServiceJourneyPatternType>
+            </ServiceJourneyPattern>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3926ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.500794</Longitude>
+                <Latitude>44.935406</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1818ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.482716</Longitude>
+                <Latitude>44.928711</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1996ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.507401</Longitude>
+                <Latitude>44.93372</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1821ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.490157</Longitude>
+                <Latitude>44.926983</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1848ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.513142</Longitude>
+                <Latitude>44.955891</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2038ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.512894</Longitude>
+                <Latitude>44.957798</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1867ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.507402</Longitude>
+                <Latitude>44.95908</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1054ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.509251</Longitude>
+                <Latitude>44.929634</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2156ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.487798</Longitude>
+                <Latitude>44.949631</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3930ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.508984</Longitude>
+                <Latitude>44.938328</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3925ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.500766</Longitude>
+                <Latitude>44.935364</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa5650ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.485666</Longitude>
+                <Latitude>44.941868</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2288ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.508672</Longitude>
+                <Latitude>44.929298</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2006ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.486927</Longitude>
+                <Latitude>44.926651</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1823ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.506958</Longitude>
+                <Latitude>44.928867</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2589ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.50739</Longitude>
+                <Latitude>44.933746</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3928ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.501802</Longitude>
+                <Latitude>44.937321</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba2017ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.504749</Longitude>
+                <Latitude>44.959282</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba290ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.512835</Longitude>
+                <Latitude>44.957874</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2103ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.504473</Longitude>
+                <Latitude>44.959347</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2681ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.509176</Longitude>
+                <Latitude>44.933899</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3927ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.501727</Longitude>
+                <Latitude>44.937344</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1837ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.503125</Longitude>
+                <Latitude>44.932304</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa494ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.503452</Longitude>
+                <Latitude>44.932457</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa6333ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.508086</Longitude>
+                <Latitude>44.951965</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3922ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.496699</Longitude>
+                <Latitude>44.953957</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1862ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.489274</Longitude>
+                <Latitude>44.946835</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1984ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.511059</Longitude>
+                <Latitude>44.944923</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1936ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.5102</Longitude>
+                <Latitude>44.942753</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3929ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.50979</Longitude>
+                <Latitude>44.93845</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa5648ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.487909</Longitude>
+                <Latitude>44.944481</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1518ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.506823</Longitude>
+                <Latitude>44.959164</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1926ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.500217</Longitude>
+                <Latitude>44.958469</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2249ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.502955</Longitude>
+                <Latitude>44.927544</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba6332ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.508035</Longitude>
+                <Latitude>44.951958</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba2146ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.487075</Longitude>
+                <Latitude>44.926788</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba5647ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.489331</Longitude>
+                <Latitude>44.945095</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1698ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.50331</Longitude>
+                <Latitude>44.92775</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2248ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.489834</Longitude>
+                <Latitude>44.926685</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2573ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.49187</Longitude>
+                <Latitude>44.927593</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1988ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.492936</Longitude>
+                <Latitude>44.951633</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1898ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.487705</Longitude>
+                <Latitude>44.949959</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2265ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.506019</Longitude>
+                <Latitude>44.928661</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3921ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.497039</Longitude>
+                <Latitude>44.954117</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2029ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.500098</Longitude>
+                <Latitude>44.958393</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1945ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.510666</Longitude>
+                <Latitude>44.943108</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1851ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.496998</Longitude>
+                <Latitude>44.954479</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1029ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.492855</Longitude>
+                <Latitude>44.951546</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba431ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.490898</Longitude>
+                <Latitude>44.950905</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba470ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.511075</Longitude>
+                <Latitude>44.945187</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1353ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.513194</Longitude>
+                <Latitude>44.956104</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa714ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.489611</Longitude>
+                <Latitude>44.945724</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba535ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.498353</Longitude>
+                <Latitude>44.954842</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba2099ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.495783</Longitude>
+                <Latitude>44.929726</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1840ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.512144</Longitude>
+                <Latitude>44.953335</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1983ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.490784</Longitude>
+                <Latitude>44.950897</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2002ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.512166</Longitude>
+                <Latitude>44.953281</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2254ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.495701</Longitude>
+                <Latitude>44.929626</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1831ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.482998</Longitude>
+                <Latitude>44.928341</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba5649ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.485706</Longitude>
+                <Latitude>44.941704</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <ScheduledStopPoint version="any" id="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1516ScheduledScheduled:LOC">
+              <Location>
+                <Longitude>-0.509123</Longitude>
+                <Latitude>44.933872</Latitude>
+              </Location>
+            </ScheduledStopPoint>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba2146ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba2146ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:68354" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba431ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba431ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70922" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa2029ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2029ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70936" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa3921ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3921ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70931" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa714ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa714ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70942" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa2249ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2249ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70956" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa1988ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1988ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70934" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba3929ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3929ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70286" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa2573ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2573ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70295" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa6333ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa6333ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70921" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba1926ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1926ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70937" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba290ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba290ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70932" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa2254ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2254ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70300" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa2265ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2265ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70948" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba1698ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1698ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70955" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa2248ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2248ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:68335" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa5648ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa5648ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:68274" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba1518ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1518ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70951" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba6332ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba6332ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70920" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba1353ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1353ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70926" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba1862ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1862ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70941" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa5650ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa5650ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:68273" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba1823ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1823ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70947" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa2006ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2006ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:68355" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba3922ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3922ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70930" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba535ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba535ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70944" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba3927ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3927ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70290" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa2589ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2589ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70740" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba1821ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1821ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:68336" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba1837ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1837ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70284" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa2103ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2103ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70958" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa2038ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2038ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70933" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa2288ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2288ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70940" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa1848ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1848ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70927" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa3930ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3930ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70287" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa3926ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3926ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70292" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa1936ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1936ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70296" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa1818ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1818ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:68334" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa2156ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2156ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70949" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa1984ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1984ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70289" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba1996ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1996ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70741" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba3925ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba3925ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70293" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa1867ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1867ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70952" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba1029ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1029ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70935" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba470ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba470ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70288" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba2017ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba2017ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70957" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa2681ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2681ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70725" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba1054ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1054ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70939" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba1840ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1840ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70946" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba1831ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1831ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:68331" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa3928ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa3928ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70291" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa1851ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1851ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70943" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba1516ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1516ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70724" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba1945ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1945ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70297" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba5647ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba5647ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:68275" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa2002ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa2002ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70945" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba5649ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba5649ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:68276" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba1898ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba1898ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70950" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa494ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa494ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70285" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_C526B562773E664ECDC24EEB730C691Ba2099ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_C526B562773E664ECDC24EEB730C691Ba2099ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70301" versionRef="any"/>
+            </PassengerStopAssignment>
+            <PassengerStopAssignment order="0" version="any" id="BORDEAUX_METROPOLE:PassengerStopAssignment:95_47C1C50E221E34A2AFA9615AA99CB70Fa1983ScheduledScheduled:LOC">
+              <ScheduledStopPointRef ref="BORDEAUX_METROPOLE:ScheduledStopPoint:95_47C1C50E221E34A2AFA9615AA99CB70Fa1983ScheduledScheduled:LOC" version="any"/>
+              <QuayRef ref="MOBIITI:Quay:70923" versionRef="any"/>
+            </PassengerStopAssignment>
+            <DestinationDisplay version="any" id="BORDEAUX_METROPOLE:DestinationDisplay:95_C526B562773E664ECDC24EEB730C691B-95_C526B562773E664ECDC24EEB730C691Ba1831ScheduledScheduled:LOC">
+              <FrontText>Parabelle (arrêt de Descente)</FrontText>
+            </DestinationDisplay>
+            <DestinationDisplay version="any" id="BORDEAUX_METROPOLE:DestinationDisplay:95_47C1C50E221E34A2AFA9615AA99CB70F-95_47C1C50E221E34A2AFA9615AA99CB70Fa5650ScheduledScheduled:LOC">
+              <FrontText>Collège Claude Massé</FrontText>
+            </DestinationDisplay>
+          </members>
+        </GeneralFrame>
+        <GeneralFrame version="any" id="BORDEAUX_METROPOLE:NETEX_HORAIRE-20230227001819Z:LOC">
+          <TypeOfFrameRef ref="FR:TypeOfFrame:NETEX_HORAIRE:">version="1.1:FR-NETEX_HORAIRE-2.2"</TypeOfFrameRef>
+          <members>
+            <ServiceJourney version="any" id="BORDEAUX_METROPOLE:ServiceJourney:33919053-2023_HIVER-MAFFS_A-Semaine-02-1101100:LOC">
+              <Name>AMBARES Parabelle</Name>
+              <dayTypes>
+                <DayTypeRef ref="BORDEAUX_METROPOLE:DayType:2023_HIVER-MAFFS_A-Semaine-02-1101100:LOC" versionRef="any"/>
+              </dayTypes>
+              <JourneyPatternRef ref="BORDEAUX_METROPOLE:ServiceJourneyPattern:95_C526B562773E664ECDC24EEB730C691B:LOC" version="any"/>
+              <passingTimes>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:40:00</ArrivalTime>
+                  <DepartureTime>16:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:41:41</ArrivalTime>
+                  <DepartureTime>16:41:41</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:42:58</ArrivalTime>
+                  <DepartureTime>16:42:58</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:45:00</ArrivalTime>
+                  <DepartureTime>16:45:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:46:36</ArrivalTime>
+                  <DepartureTime>16:46:36</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:47:18</ArrivalTime>
+                  <DepartureTime>16:47:18</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:47:44</ArrivalTime>
+                  <DepartureTime>16:47:44</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:48:50</ArrivalTime>
+                  <DepartureTime>16:48:50</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:49:14</ArrivalTime>
+                  <DepartureTime>16:49:14</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:50:03</ArrivalTime>
+                  <DepartureTime>16:50:03</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:51:00</ArrivalTime>
+                  <DepartureTime>16:51:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:51:29</ArrivalTime>
+                  <DepartureTime>16:51:29</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:52:43</ArrivalTime>
+                  <DepartureTime>16:52:43</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:53:48</ArrivalTime>
+                  <DepartureTime>16:53:48</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:54:15</ArrivalTime>
+                  <DepartureTime>16:54:15</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:56:05</ArrivalTime>
+                  <DepartureTime>16:56:05</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:56:50</ArrivalTime>
+                  <DepartureTime>16:56:50</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:57:27</ArrivalTime>
+                  <DepartureTime>16:57:27</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:57:50</ArrivalTime>
+                  <DepartureTime>16:57:50</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:58:48</ArrivalTime>
+                  <DepartureTime>16:58:48</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:59:06</ArrivalTime>
+                  <DepartureTime>16:59:06</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>16:59:57</ArrivalTime>
+                  <DepartureTime>16:59:57</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>17:00:52</ArrivalTime>
+                  <DepartureTime>17:00:52</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>17:01:14</ArrivalTime>
+                  <DepartureTime>17:01:14</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>17:02:00</ArrivalTime>
+                  <DepartureTime>17:02:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>17:02:21</ArrivalTime>
+                  <DepartureTime>17:02:21</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>17:02:55</ArrivalTime>
+                  <DepartureTime>17:02:55</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>17:03:38</ArrivalTime>
+                  <DepartureTime>17:03:38</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>17:04:04</ArrivalTime>
+                  <DepartureTime>17:04:04</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>17:05:00</ArrivalTime>
+                  <DepartureTime>17:05:00</DepartureTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+              <facilities>
+                <ServiceFacilitySet version="any" id="BORDEAUX_METROPOLE:ServiceFacilitySet:33919053-2023_HIVER-MAFFS_A-Semaine-02-1101100:LOC">
+                  <LuggageCarriageFacilityList>unknown</LuggageCarriageFacilityList>
+                </ServiceFacilitySet>
+              </facilities>
+            </ServiceJourney>
+            <ServiceJourney version="any" id="BORDEAUX_METROPOLE:ServiceJourney:33919054-2023_HIVER-MAFFS_A-Semaine-02-0010000:LOC">
+              <Name>AMBARES Parabelle</Name>
+              <dayTypes>
+                <DayTypeRef ref="BORDEAUX_METROPOLE:DayType:2023_HIVER-MAFFS_A-Semaine-02-0010000:LOC" versionRef="any"/>
+              </dayTypes>
+              <JourneyPatternRef ref="BORDEAUX_METROPOLE:ServiceJourneyPattern:95_C526B562773E664ECDC24EEB730C691B:LOC" version="any"/>
+              <passingTimes>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:10:00</ArrivalTime>
+                  <DepartureTime>12:10:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:11:41</ArrivalTime>
+                  <DepartureTime>12:11:41</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:12:58</ArrivalTime>
+                  <DepartureTime>12:12:58</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:15:00</ArrivalTime>
+                  <DepartureTime>12:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:16:36</ArrivalTime>
+                  <DepartureTime>12:16:36</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:17:18</ArrivalTime>
+                  <DepartureTime>12:17:18</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:17:44</ArrivalTime>
+                  <DepartureTime>12:17:44</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:18:50</ArrivalTime>
+                  <DepartureTime>12:18:50</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:19:14</ArrivalTime>
+                  <DepartureTime>12:19:14</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:20:03</ArrivalTime>
+                  <DepartureTime>12:20:03</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:21:00</ArrivalTime>
+                  <DepartureTime>12:21:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:21:29</ArrivalTime>
+                  <DepartureTime>12:21:29</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:22:43</ArrivalTime>
+                  <DepartureTime>12:22:43</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:23:48</ArrivalTime>
+                  <DepartureTime>12:23:48</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:24:15</ArrivalTime>
+                  <DepartureTime>12:24:15</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:26:05</ArrivalTime>
+                  <DepartureTime>12:26:05</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:26:50</ArrivalTime>
+                  <DepartureTime>12:26:50</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:27:27</ArrivalTime>
+                  <DepartureTime>12:27:27</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:27:50</ArrivalTime>
+                  <DepartureTime>12:27:50</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:28:48</ArrivalTime>
+                  <DepartureTime>12:28:48</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:29:06</ArrivalTime>
+                  <DepartureTime>12:29:06</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:29:57</ArrivalTime>
+                  <DepartureTime>12:29:57</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:30:52</ArrivalTime>
+                  <DepartureTime>12:30:52</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:31:14</ArrivalTime>
+                  <DepartureTime>12:31:14</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:32:00</ArrivalTime>
+                  <DepartureTime>12:32:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:32:21</ArrivalTime>
+                  <DepartureTime>12:32:21</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:32:55</ArrivalTime>
+                  <DepartureTime>12:32:55</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:33:38</ArrivalTime>
+                  <DepartureTime>12:33:38</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:34:04</ArrivalTime>
+                  <DepartureTime>12:34:04</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>12:35:00</ArrivalTime>
+                  <DepartureTime>12:35:00</DepartureTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+              <facilities>
+                <ServiceFacilitySet version="any" id="BORDEAUX_METROPOLE:ServiceFacilitySet:33919054-2023_HIVER-MAFFS_A-Semaine-02-0010000:LOC">
+                  <LuggageCarriageFacilityList>unknown</LuggageCarriageFacilityList>
+                </ServiceFacilitySet>
+              </facilities>
+            </ServiceJourney>
+            <ServiceJourney version="any" id="BORDEAUX_METROPOLE:ServiceJourney:33919055-2023_HIVER-MAFFS_A-Semaine-02:LOC">
+              <Name>AMBARES Collège C. Massé</Name>
+              <dayTypes>
+                <DayTypeRef ref="BORDEAUX_METROPOLE:DayType:2023_HIVER-MAFFS_A-Semaine-02:LOC" versionRef="any"/>
+              </dayTypes>
+              <JourneyPatternRef ref="BORDEAUX_METROPOLE:ServiceJourneyPattern:95_47C1C50E221E34A2AFA9615AA99CB70F:LOC" version="any"/>
+              <passingTimes>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:05:00</ArrivalTime>
+                  <DepartureTime>07:05:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:05:50</ArrivalTime>
+                  <DepartureTime>07:05:50</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:06:21</ArrivalTime>
+                  <DepartureTime>07:06:21</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:07:28</ArrivalTime>
+                  <DepartureTime>07:07:28</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:08:14</ArrivalTime>
+                  <DepartureTime>07:08:14</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:08:42</ArrivalTime>
+                  <DepartureTime>07:08:42</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:09:41</ArrivalTime>
+                  <DepartureTime>07:09:41</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:09:47</ArrivalTime>
+                  <DepartureTime>07:09:47</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:11:08</ArrivalTime>
+                  <DepartureTime>07:11:08</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:12:09</ArrivalTime>
+                  <DepartureTime>07:12:09</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:12:42</ArrivalTime>
+                  <DepartureTime>07:12:42</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:13:48</ArrivalTime>
+                  <DepartureTime>07:13:48</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:14:18</ArrivalTime>
+                  <DepartureTime>07:14:18</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:15:00</ArrivalTime>
+                  <DepartureTime>07:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:15:37</ArrivalTime>
+                  <DepartureTime>07:15:37</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:17:10</ArrivalTime>
+                  <DepartureTime>07:17:10</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:17:37</ArrivalTime>
+                  <DepartureTime>07:17:37</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:18:42</ArrivalTime>
+                  <DepartureTime>07:18:42</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:19:37</ArrivalTime>
+                  <DepartureTime>07:19:37</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:20:00</ArrivalTime>
+                  <DepartureTime>07:20:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:21:09</ArrivalTime>
+                  <DepartureTime>07:21:09</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:21:59</ArrivalTime>
+                  <DepartureTime>07:21:59</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:22:24</ArrivalTime>
+                  <DepartureTime>07:22:24</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:23:48</ArrivalTime>
+                  <DepartureTime>07:23:48</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:24:20</ArrivalTime>
+                  <DepartureTime>07:24:20</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:25:00</ArrivalTime>
+                  <DepartureTime>07:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:26:40</ArrivalTime>
+                  <DepartureTime>07:26:40</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:27:36</ArrivalTime>
+                  <DepartureTime>07:27:36</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:28:04</ArrivalTime>
+                  <DepartureTime>07:28:04</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:28:50</ArrivalTime>
+                  <DepartureTime>07:28:50</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="any">
+                  <ArrivalTime>07:30:00</ArrivalTime>
+                  <DepartureTime>07:30:00</DepartureTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+              <facilities>
+                <ServiceFacilitySet version="any" id="BORDEAUX_METROPOLE:ServiceFacilitySet:33919055-2023_HIVER-MAFFS_A-Semaine-02:LOC">
+                  <LuggageCarriageFacilityList>unknown</LuggageCarriageFacilityList>
+                </ServiceFacilitySet>
+              </facilities>
+            </ServiceJourney>
+          </members>
+        </GeneralFrame>
+      </frames>
+    </CompositeFrame>
+  </dataObjects>
+</PublicationDelivery>
