@@ -31,3 +31,23 @@ for stop in stopPointsArray:
         i2 += 1
 
 print(listId)
+
+
+stopsNameWithId = []
+
+f = open("./data/stops.txt","r")
+f.readline()
+print(f.readline().split(",")[0])
+for line in f:
+    if line[0].isnumeric(): 
+        stop = (line.split(',')[0], line.split(",")[1])
+        stopsNameWithId.append(stop)
+
+
+matched = []
+for id in listId:
+    for stop in stopsNameWithId:
+        if id == stop[0]:
+            matched.append(stop)
+
+print(matched)
