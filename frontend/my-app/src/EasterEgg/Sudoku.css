@@ -63,7 +63,7 @@
 }
 
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 420px) {
     .digit {
         width: 30px;
         height: 30px;
