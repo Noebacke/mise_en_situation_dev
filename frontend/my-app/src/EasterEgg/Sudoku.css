@@ -64,6 +64,9 @@
 
 
 @media screen and (max-width: 420px) {
+
+    .empty,
+    .given,
     .digit {
         width: 30px;
         height: 30px;
