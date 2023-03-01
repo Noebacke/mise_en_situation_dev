@@ -37,19 +37,20 @@ print(listId)
 
 stopsNameWithId = []
 
-f = open("./data/stops.txt","r")
+
+f = open("./data/stops.txt", "r")
 f.readline()
 print(f.readline().split(",")[0])
 for line in f:
-    if line[0].isnumeric(): 
-        stop = {line.split(',')[0], line.split(",")[1],
-                line.split(",")[2], line.split(",")[3]}
+    if line[0].isnumeric():
+        stop = {"id": line.split(',')[0], "name": line.split(",")[1],
+                "latitude": line.split(",")[2], "longitude": line.split(",")[3]}
         stopsNameWithId.append(stop)
 
 matched = []
 for id in listId:
     for stop in stopsNameWithId:
-        if id == stop[0]:
+        if id == stop['id']:
             matched.append(stop)
 
 print(matched)
