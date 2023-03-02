@@ -54,4 +54,20 @@ def getDataFromDatabase():
   print(myresult)
   return myresult
 
+def getTime(start,end):
 
+  mydb = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="123456",
+    database="ligne95"
+  )
+
+  mycursor = mydb.cursor()
+
+  mycursor.execute("SELECT name,arrival FROM STOPS WHERE name=%s" %start)
+
+  myresult = mycursor.fetchall()
+
+  print(myresult)
+  return myresult

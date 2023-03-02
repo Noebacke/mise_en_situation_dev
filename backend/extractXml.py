@@ -1,7 +1,7 @@
 import xmltodict
 import json
 import re
-from pymysql.pymysql_get_databases import createTable,deleteTable,insertData
+from pymysql.pymysql_get_databases import createTable,deleteTable,insertData,getTime
 
 with open('./data/BORDEAUX_METROPOLE_offre_Bus_TBM_BordeauxM_tropole__95_95.xml', encoding="utf-8") as file:
 
@@ -147,4 +147,15 @@ def insertDataToDatabase():
     for elem in stopComplete:
         insertData(elem)
         print(elem)
+
+def returnTimeOftravel(start,end):
+    dataOfDatabaseStart = getTime(start)
+    dataOfDatabaseEnd = getTime(end)
+    nameFrom:str = dataOfDatabaseStart.__getitem__("name")
+    timeFrom:int = dataOfDatabaseStart.__getitem__("arrival")
+    nameTo:str = dataOfDatabaseEnd.__getitem__("name")
+    timeTo:int = dataOfDatabaseEnd.__getitem__("arrival")
+    result:int = timeTo - timeFrom
+
+    return result
 
