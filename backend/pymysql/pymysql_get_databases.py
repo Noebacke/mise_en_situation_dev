@@ -53,27 +53,6 @@ sql = "INSERT INTO STOPS (id_stop, name, latitude, longitude, destination, type,
 
 
 def insertData(e):
-<<<<<<< HEAD
-  mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="123456",
-    database="ligne95"
-  )
-  cursor = mydb.cursor()
-  val=(e['id'], e['name'], e['latitude'], e['longitude'], e['destination'], e['type'], e['arrival'], e['departure'])
-  cursor.execute(sql,val)
-  mydb.commit()
-
-def getDataFromDatabase():
-  mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="123456",
-    database="ligne95"
-  )
-  mycursor = mydb.cursor()
-=======
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
@@ -95,7 +74,6 @@ def getDataFromDatabase():
         database="ligne95"
     )
     mycursor = mydb.cursor()
->>>>>>> d3c1ef6d02ba6a408743e7d07109ba862b1bbf87
 
     mycursor.execute("SELECT * FROM STOPS")
 
