@@ -1,6 +1,6 @@
 import './Horaires.css'
 import Select from 'react-select'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Header from '../Header/Header';
 import { Link } from 'react-router-dom';
 import fleche_gauche from '../img/fleche_gauche.svg'
@@ -9,16 +9,19 @@ import fleche_gauche from '../img/fleche_gauche.svg'
 const Horaires = () => {
 
     const [horaires, setHoraires] = useState([]);
+    const [isSearched, setSearched] = useState(false);
+    const [isOptionSelected, setOptionSelected] = useState(false);
 
     const handleSubmit = async (e) => {
+        console.log('test')
         e.preventDefault()
-        const research = e.target.search.value;
-        const cocktailResponse = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${research}`);
-        const horaires = await cocktailResponse.json();
-        setHoraires(horaires.drinks);
+        const listeHoraires = await fetch(`http://10.111.0.144/stops`);
+        console.log("liste Horaires :" + listeHoraires)
+        const horaires = await listeHoraires.json();
+        console.log("horaires: " + horaires)
+        setHoraires(horaires);
+        setSearched(true);
     };
-
-    console.log(horaires)
 
     const options = [
         { value: [{ type: 'tram' }, { ligne: 'A' }], label: 'Tram A' },
@@ -32,11 +35,7 @@ const Horaires = () => {
         { value: [{ type: 'Bus' }, { ligne: '54' }], label: 'Bus 54' },
         { value: [{ type: 'Bus' }, { ligne: '80' }], label: 'Bus 80' },
         { value: [{ type: 'Bus' }, { ligne: '95' }], label: 'Bus 95' },
-
-
     ]
-
-    console.log(options.map(option => console.log(option.value)))
 
     return (
         <>
@@ -44,11 +43,35 @@ const Horaires = () => {
             <Link className='retour' to='/'>
                 <img className='fleche' src={fleche_gauche} alt='retour' />
             </Link>
-            <form>
+            <div>
                 <Select className='select' options={options} />
-                <button className='submit-button' type="submit" onClick={handleSubmit()}>Rechercher</button>
-            </form>
-        </>
+                {/* {isOptionSelected ?
+                <div id='results' className='horaires-results'>
+                    {horaires.map(horaire => {
+                        return (
+                            <p className='horaire'>Arrivée : {horaire.arrival} / Départ : {horaire.departure}</p>
+                        )
+                    })}
+                </div>
+                :
+                <>
+                </>
+            }  */}
+                <button className='submit-button' onClick={(e) => handleSubmit(e)}>Rechercher</button>
+            </div>
+
+            {isSearched ?
+                <div id='results' className='horaires-results'>
+                    {horaires.map(horaire => {
+                        return (
+                            <p className='horaire'>Arrivée : {horaire.arrival} / Départ : {horaire.departure}</p>
+                        )
+                    })}
+                </div>
+                :
+                <>
+                </>
+            }        </>
     )
 }
 
