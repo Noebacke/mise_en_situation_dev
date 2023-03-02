@@ -1,6 +1,7 @@
 import xmltodict
 import json
 import re
+from pymysql.pymysql_get_databases import createTable
 
 with open('./data/BORDEAUX_METROPOLE_offre_Bus_TBM_BordeauxM_tropole__95_95.xml') as file:
 
@@ -125,20 +126,21 @@ for id in listId:
 
 stopComplete = []
 
-for p in patternsTab:
-    pName = p['patternName']
+def createStopsTab ():
+    for p in patternsTab:
+        pName = p['patternName']
 
-    for t in trajetsTab:
-        if pName in t['destination']:
-            destination = t['destination']
-            index = 0
-            for o in t['horaires']:
-                stopId = p['pattern'][index]['id']
-                for element in matched:
-                    if stopId == element['id']:
-                        index += 1
-                        stopComplete.append({"destination": destination, "type": t['type'], "id": stopId, "name": element['name'], "arrival": o['arrival'], "departure": o[
-                                            'departure'], "latitude": element['latitude'], "longitude": element['longitude']})
+        for t in trajetsTab:
+            if pName in t['destination']:
+                destination = t['destination']
+                index = 0
+                for o in t['horaires']:
+                    stopId = p['pattern'][index]['id']
+                    for element in matched:
+                        if stopId == element['id']:
+                            index += 1
+                            stopComplete.append({"destination": destination, "type": t['type'], "id": stopId, "name": element['name'], "arrival": o['arrival'], "departure": o[
+                                                'departure'], "latitude": element['latitude'], "longitude": element['longitude']})
 
 
 for elem in stopComplete:

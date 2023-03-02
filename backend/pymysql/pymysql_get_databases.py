@@ -11,10 +11,11 @@ mycursor = mydb.cursor()
 
 mycursor.execute("DROP TABLE IF EXISTS STOPS")
 
-mycursor.execute(
+def createTable (): 
+  mycursor.execute(
     "CREATE TABLE STOPS (id INT AUTO_INCREMENT primary key NOT NULL, id_stop INT, name VARCHAR(100) NOT NULL, latitude FLOAT,longitude FLOAT, destination VARCHAR(100),\
         type VARCHAR(100), arrival VARCHAR(10), departure VARCHAR(10));"
-    )
+  )
 
 mycursor.execute("SHOW TABLES")
 
