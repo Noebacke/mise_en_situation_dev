@@ -1,6 +1,7 @@
 import xmltodict
 import json
 import re
+from pymysql.pymysql_get_databases import createTable,deleteTable,insertData
 
 with open('./data/BORDEAUX_METROPOLE_offre_Bus_TBM_BordeauxM_tropole__95_95.xml') as file:
 
@@ -140,6 +141,10 @@ for p in patternsTab:
                         stopComplete.append({"destination": destination, "type": t['type'], "id": stopId, "name": element['name'], "arrival": o['arrival'], "departure": o[
                                             'departure'], "latitude": element['latitude'], "longitude": element['longitude']})
 
+def insertDataToDatabase():
+    deleteTable()
+    createTable()
+    for elem in stopComplete:
+        insertData(elem)
+        print(elem)
 
-for elem in stopComplete:
-    print(elem)

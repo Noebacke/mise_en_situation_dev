@@ -1,24 +1,41 @@
 import mysql.connector
 
-mydb = mysql.connector.connect(
-  host="localhost",
-  user="root",
-  password="123456",
-  database="ligne95"
-)
 
-mycursor = mydb.cursor()
+def deleteTable():
+  mydb = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="123456",
+    database="ligne95"
+  )
+  cursor = mydb.cursor()
+  cursor.execute("DROP TABLE IF EXISTS STOPS")
 
-mycursor.execute("DROP TABLE IF EXISTS STOPS")
-
-mycursor.execute(
+def createTable(): 
+  mydb = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="123456",
+    database="ligne95"
+  )
+  cursor = mydb.cursor()
+  cursor.execute(
     "CREATE TABLE STOPS (id INT AUTO_INCREMENT primary key NOT NULL, id_stop INT, name VARCHAR(100) NOT NULL, latitude FLOAT,longitude FLOAT, destination VARCHAR(100),\
         type VARCHAR(100), arrival VARCHAR(10), departure VARCHAR(10));"
-    )
+  )
 
-mycursor.execute("SHOW TABLES")
+sql ="INSERT INTO stops (id_stop, name, latitude, longitude, destination, type, arrival, departure) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
 
-for x in mycursor:
-  print(x)
+def insertData(e):
+  mydb = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="123456",
+    database="ligne95"
+  )
+  cursor = mydb.cursor()
+  val=(e['id'], e['name'], e['latitude'], e['longitude'], e['destination'], e['type'], e['arrival'], e['departure'])
+  cursor.execute(sql,val)
+  mydb.commit()
 
-mydb.close()
+
