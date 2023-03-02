@@ -3,7 +3,7 @@ import json
 import re
 from pymysql.pymysql_get_databases import createTable,deleteTable,insertData
 
-with open('./data/BORDEAUX_METROPOLE_offre_Bus_TBM_BordeauxM_tropole__95_95.xml') as file:
+with open('./data/BORDEAUX_METROPOLE_offre_Bus_TBM_BordeauxM_tropole__95_95.xml', encoding="utf-8") as file:
 
     dbData = []
 
@@ -107,7 +107,7 @@ for pattern in Patterns:
 
 # Créer la liste des arrêts avec leur id, nom, longitude et latitude associés
 
-f = open("./data/stops.txt", "r")
+f = open("./data/stops.txt", "r",encoding="utf-8")
 f.readline()
 for line in f:
     if line[0].isnumeric():

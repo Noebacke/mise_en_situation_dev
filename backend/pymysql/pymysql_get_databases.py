@@ -38,4 +38,20 @@ def insertData(e):
   cursor.execute(sql,val)
   mydb.commit()
 
+def getDataFromDatabase():
+  mydb = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="123456",
+    database="ligne95"
+  )
+  mycursor = mydb.cursor()
+
+  mycursor.execute("SELECT * FROM STOPS")
+
+  myresult = mycursor.fetchall()
+
+  print(myresult)
+  return myresult
+
 
