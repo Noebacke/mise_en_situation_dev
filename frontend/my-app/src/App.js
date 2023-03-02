@@ -8,7 +8,6 @@ import { Sudoku } from './EasterEgg/Sudoku';
 import TrajetResultat from './Trajet/TrajetResultat';
 import Loader from './Loader/Loader';
 import Contact from './Contact/Contact';
-import HorairesResultats from './Horaires/HorairesResultats';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="horaires" element={<Horaires />} />
-        <Route path="horaires/results" element={<HorairesResultats />} />
         <Route path="trajet" element={<Trajet />} />
         <Route path="trajet/results" element={<TrajetResultat />} />
         <Route path="sudoku" element={<Sudoku/>} />
