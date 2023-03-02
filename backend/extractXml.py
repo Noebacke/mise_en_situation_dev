@@ -3,6 +3,9 @@ import json
 import re
 
 with open('./data/BORDEAUX_METROPOLE_offre_Bus_TBM_BordeauxM_tropole__95_95.xml') as file:
+
+    dbData = []
+
     dictionary = xmltodict.parse(file.read())
 
 json_object = json.dumps(dictionary)
@@ -110,7 +113,6 @@ for line in f:
         stop = {"id": line.split(',')[0], "name": line.split(",")[1],
                 "latitude": line.split(",")[2], "longitude": line.split(",")[3]}
         stopsNameWithId.append(stop)
-
 
 matched = []
 for id in listId:
