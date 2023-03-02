@@ -1,10 +1,10 @@
 import mysql.connector
-
+import json
 
 def deleteTable():
   mydb = mysql.connector.connect(
     host="localhost",
-    user="root",
+    user="test",
     password="123456",
     database="ligne95"
   )
@@ -14,7 +14,7 @@ def deleteTable():
 def createTable(): 
   mydb = mysql.connector.connect(
     host="localhost",
-    user="root",
+    user="test",
     password="123456",
     database="ligne95"
   )
@@ -29,7 +29,7 @@ sql ="INSERT INTO STOPS (id_stop, name, latitude, longitude, destination, type, 
 def insertData(e):
   mydb = mysql.connector.connect(
     host="localhost",
-    user="root",
+    user="test",
     password="123456",
     database="ligne95"
   )
@@ -41,7 +41,7 @@ def insertData(e):
 def getDataFromDatabase():
   mydb = mysql.connector.connect(
     host="localhost",
-    user="root",
+    user="test",
     password="123456",
     database="ligne95"
   )
@@ -50,8 +50,12 @@ def getDataFromDatabase():
   mycursor.execute("SELECT * FROM STOPS")
 
   myresult = mycursor.fetchall()
-
   print(myresult)
-  return myresult
+  data = []
+
+  for row in myresult:
+    data.append({"id":row[0],"id_stop":row[1],"name":row[2], "latitude":row[3], "longitude":row[4], "destination":row[5], "type":row[6], "arrival":row[7], "departure":row[8]})
+
+  return data
 
 

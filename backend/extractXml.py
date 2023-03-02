@@ -3,10 +3,7 @@ import json
 import re
 from pymysql.pymysql_get_databases import createTable,deleteTable,insertData
 
-with open('./data/BORDEAUX_METROPOLE_offre_Bus_TBM_BordeauxM_tropole__95_95.xml', encoding="utf-8") as file:
-
-    dbData = []
-
+with open('./data/BORDEAUX_METROPOLE_offre_Bus_TBM_BordeauxM_tropole__95_95.xml', encoding='utf-8') as file:
     dictionary = xmltodict.parse(file.read())
 
 json_object = json.dumps(dictionary)
@@ -14,7 +11,6 @@ json_object = json.dumps(dictionary)
 
 regexId = re.compile('[A-Za-z:_]+95_[A-Z0-9]+a([0-9]+)')
 
-i2 = 0
 trajetsTab = []
 patternsTab = []
 listId = []
@@ -26,15 +22,12 @@ stopPoints = dictionary['PublicationDelivery']['dataObjects']['CompositeFrame'][
 
 stopPointsArray = []
 
-i = 0
 for stop in stopPoints:
-    stopPointsArray.append(stopPoints[i]['@id'])
-    i += 1
+    stopPointsArray.append(stop['@id'])
 
 for stop in stopPointsArray:
-    for match in regexId.finditer(stopPointsArray[i2]):
+    for match in regexId.finditer(stop):
         listId.append(match.group(1))
-        i2 += 1
 
 
 # Créer la liste des trajets avec leur nom et horaires associés >> trajetsTab
@@ -103,17 +96,16 @@ for pattern in Patterns:
 
     patternsTabRange += 1
     p += 1
-
-
+    
 # Créer la liste des arrêts avec leur id, nom, longitude et latitude associés
 
-f = open("./data/stops.txt", "r",encoding="utf-8")
-f.readline()
-for line in f:
-    if line[0].isnumeric():
-        stop = {"id": line.split(',')[0], "name": line.split(",")[1],
-                "latitude": line.split(",")[2], "longitude": line.split(",")[3]}
-        stopsNameWithId.append(stop)
+with open('./data/stops.txt', encoding='utf-8') as file:
+    file.readline()
+    for line in file:
+        if line[0].isnumeric():
+            stop = {"id": line.split(',')[0], "name": line.split(",")[1],
+                    "latitude": line.split(",")[2], "longitude": line.split(",")[3]}
+            stopsNameWithId.append(stop)
 
 matched = []
 for id in listId:
@@ -140,6 +132,8 @@ for p in patternsTab:
                         index += 1
                         stopComplete.append({"destination": destination, "type": t['type'], "id": stopId, "name": element['name'], "arrival": o['arrival'], "departure": o[
                                             'departure'], "latitude": element['latitude'], "longitude": element['longitude']})
+
+
 
 def insertDataToDatabase():
     deleteTable()
