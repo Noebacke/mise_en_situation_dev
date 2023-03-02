@@ -3,26 +3,25 @@ import json
 
 
 def deleteTable():
-    mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="123456",
-        database="ligne95"
-    )
-    cursor = mydb.cursor()
-    cursor.execute("DROP TABLE IF EXISTS STOPS")
+  mydb = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="123456",
+    database="ligne95"
+  )
+  cursor = mydb.cursor()
+  cursor.execute("DROP TABLE IF EXISTS STOPS")
 
-
-def createTable():
-    mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="123456",
-        database="ligne95"
-    )
-    cursor = mydb.cursor()
-    cursor.execute(
-        "CREATE TABLE STOPS (id INT AUTO_INCREMENT primary key NOT NULL, id_stop INT, name VARCHAR(100) NOT NULL, latitude FLOAT,longitude FLOAT, destination VARCHAR(100),\
+def createTable(): 
+  mydb = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="123456",
+    database="ligne95"
+  )
+  cursor = mydb.cursor()
+  cursor.execute(
+    "CREATE TABLE STOPS (id INT AUTO_INCREMENT primary key NOT NULL, id_stop INT, name VARCHAR(100) NOT NULL, latitude FLOAT,longitude FLOAT, destination VARCHAR(100),\
         type VARCHAR(100), arrival VARCHAR(10), departure VARCHAR(10));"
     )
 
@@ -58,9 +57,25 @@ def getDataFromDatabase():
     myresult = mycursor.fetchall()
     print(myresult)
     data = []
-
     for row in myresult:
-        data.append({"id": row[0], "id_stop": row[1], "name": row[2], "latitude": row[3], "longitude": row[4],
-                    "destination": row[5], "type": row[6], "arrival": row[7], "departure": row[8]})
-
+      data.append({"id": row[0], "id_stop": row[1], "name": row[2], "latitude": row[3], "longitude": row[4],
+                "destination": row[5], "type": row[6], "arrival": row[7], "departure": row[8]})
     return data
+
+def getTime(start):
+
+  mydb = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="123456",
+    database="ligne95"
+  )
+
+  mycursor = mydb.cursor()
+
+  mycursor.execute(("SELECT name,arrival FROM STOPS WHERE name=\'%s\'") % start)
+
+  myresult = mycursor.fetchall()
+
+  print(myresult)
+  return myresult

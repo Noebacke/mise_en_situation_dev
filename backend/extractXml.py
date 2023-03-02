@@ -1,7 +1,9 @@
 import xmltodict
 import json
 import re
-from pymysql.pymysql_get_databases import createTable,deleteTable,insertData
+from datetime import timedelta
+from pymysql.pymysql_get_databases import createTable,deleteTable,insertData,getTime
+
 
 with open('./data/BORDEAUX_METROPOLE_offre_Bus_TBM_BordeauxM_tropole__95_95.xml', encoding='utf-8') as file:
     dictionary = xmltodict.parse(file.read())
@@ -140,5 +142,10 @@ def insertDataToDatabase():
     createTable()
     for elem in stopComplete:
         insertData(elem)
-        print(elem)
 
+def returnTimeOftravel(start,end):
+    timeStart = getTime(start)
+    timeEnd = getTime(end)
+
+    delta = timeEnd - timeStart
+    return timedelta(seconds=delta)
