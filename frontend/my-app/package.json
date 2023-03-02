@@ -12,7 +12,12 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-select": "^5.7.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "convert-source-map": "^1.7.0",
+    "debug": "^4.1.0",
+    "gensync": "^1.0.0-beta.2",
+    "json5": "^2.2.2",
+    "semver": "^6.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
