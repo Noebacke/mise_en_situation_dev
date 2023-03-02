@@ -24,7 +24,7 @@ def createTable():
         type VARCHAR(100), arrival VARCHAR(10), departure VARCHAR(10));"
   )
 
-sql ="INSERT INTO stops (id_stop, name, latitude, longitude, destination, type, arrival, departure) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
+sql ="INSERT INTO STOPS (id_stop, name, latitude, longitude, destination, type, arrival, departure) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
 
 def insertData(e):
   mydb = mysql.connector.connect(
