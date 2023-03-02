@@ -5,10 +5,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Horaires from './Horaires/Horaires';
 import Trajet from './Trajet/Trajet';
 import { Sudoku } from './EasterEgg/Sudoku';
-import TrajetRecherche from './Trajet/TrajetRecherche';
 import TrajetResultat from './Trajet/TrajetResultat';
 import Loader from './Loader/Loader';
 import Contact from './Contact/Contact';
+import HorairesResultats from './Horaires/HorairesResultats';
 
 function App() {
   return (
@@ -18,9 +18,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="horaires" element={<Horaires />} />
-        <Route path="horaires/results" element={<Horaires />} />
+        <Route path="horaires/results" element={<HorairesResultats />} />
         <Route path="trajet" element={<Trajet />} />
-        <Route path="trajet/search" element={<TrajetRecherche />} />
         <Route path="trajet/results" element={<TrajetResultat />} />
         <Route path="sudoku" element={<Sudoku/>} />
         <Route path="contact" element={<Contact/>} /> 

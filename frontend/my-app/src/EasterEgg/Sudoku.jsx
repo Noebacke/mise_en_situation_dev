@@ -94,9 +94,9 @@ const Sudoku = () => {
                     <img className='fleche' src={fleche_gauche} alt='vers les horaires' />
                 </Link>
                 <div id="DifficultyButtons">
-                    <button onClick={() => generateSudoku('easy', setGrid, setSolvedGrid, setIsSolved)}>Easy</button>
-                    <button onClick={() => generateSudoku('medium', setGrid, setSolvedGrid, setIsSolved)}>Medium</button>
-                    <button onClick={() => generateSudoku('hard', setGrid, setSolvedGrid, setIsSolved)}>Hard</button>
+                    <button className='sudoku-control' onClick={() => generateSudoku('easy', setGrid, setSolvedGrid, setIsSolved)}>Easy</button>
+                    <button className='sudoku-control' onClick={() => generateSudoku('medium', setGrid, setSolvedGrid, setIsSolved)}>Medium</button>
+                    <button className='sudoku-control' onClick={() => generateSudoku('hard', setGrid, setSolvedGrid, setIsSolved)}>Hard</button>
                 </div>
 
                 {isSolved ? <h1>YOU WIN!</h1> : <></>}

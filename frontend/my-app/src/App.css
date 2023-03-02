@@ -42,6 +42,7 @@
 .retour {
   justify-self: flex-start;
   width: fit-content;
+  display: flex;
 }
 
 .fleche {

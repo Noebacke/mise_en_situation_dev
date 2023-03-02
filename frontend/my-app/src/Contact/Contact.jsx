@@ -1,4 +1,8 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import Header from "../Header/Header";
+import fleche_gauche from '../img/fleche_gauche.svg'
+import './Contact.css'
 
 const Contact = () => {
     const [inputs, setInputs] = useState({
@@ -45,10 +49,15 @@ const Contact = () => {
 
     return (
         <>
+            <Header />
+            <Link className='retour' to='/'>
+                <img className='fleche' src={fleche_gauche} alt='retour' />
+            </Link>
             <form className="contact-form" onSubmit={handleSubmit}>
                 <div className="form-field">
                     <label htmlFor="name">Nom:</label>
                     <input
+                        className="input-contact-form"
                         type="text"
                         id="name"
                         name="name"
@@ -60,6 +69,7 @@ const Contact = () => {
                 <div className="form-field">
                     <label htmlFor="email">Email:</label>
                     <input
+                        className="input-contact-form"
                         type="email"
                         id="email"
                         name="email"
@@ -80,7 +90,6 @@ const Contact = () => {
                 </div>
                 <button type="submit">Envoyer</button>
             </form>
-            <p>About Us</p>
         </>
     );
 };
