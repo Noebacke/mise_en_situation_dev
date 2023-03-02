@@ -57,6 +57,10 @@ def getDataFromDatabase():
     myresult = mycursor.fetchall()
     print(myresult)
     data = []
+    for row in myresult:
+      data.append({"id": row[0], "id_stop": row[1], "name": row[2], "latitude": row[3], "longitude": row[4],
+                "destination": row[5], "type": row[6], "arrival": row[7], "departure": row[8]})
+    return data
 
 def getTime(start):
 
