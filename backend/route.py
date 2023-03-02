@@ -18,9 +18,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/travel/{start}/{end}}")
+@app.get("/travel/{start}/{end}")
 def getTimeOfTravel(start, end):
-    return {"start": start, "end": end}
     response = returnTimeOftravel(start, end)
     return response
 
