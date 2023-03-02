@@ -145,11 +145,11 @@ def insertDataToDatabase():
 def returnTimeOftravel(start,end):
     dataOfDatabaseStart = getTime(start)
     dataOfDatabaseEnd = getTime(end)
-    nameFrom:str = dataOfDatabaseStart.__getitem__("name")
-    timeFrom:int = dataOfDatabaseStart.__getitem__("arrival")
-    nameTo:str = dataOfDatabaseEnd.__getitem__("name")
-    timeTo:int = dataOfDatabaseEnd.__getitem__("arrival")
-    result:int = timeTo - timeFrom
+    nameFrom:str = dataOfDatabaseStart[0]
+    timeFrom:int = dataOfDatabaseStart[1]
+    nameTo:str = dataOfDatabaseEnd[0]
+    timeTo:int = dataOfDatabaseEnd[1]
+    # result:int = timeTo - timeFrom
 
-    return result
+    # return result
 
