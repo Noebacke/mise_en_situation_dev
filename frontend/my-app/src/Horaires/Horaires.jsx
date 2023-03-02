@@ -15,11 +15,11 @@ const Horaires = () => {
     const handleSubmit = async (e) => {
         console.log('test')
         e.preventDefault()
-        const listeHoraires = await fetch(`http://10.111.0.144/stops`);
-        console.log("liste Horaires :" + listeHoraires)
-        const horaires = await listeHoraires.json();
-        console.log("horaires: " + horaires)
+        const listeHoraires = await fetch(`http://localhost:8000/stops`);
+        const horaires = await listeHoraires.json()
+        console.log(horaires)
         setHoraires(horaires);
+        console.log(horaires)
         setSearched(true);
     };
 
@@ -63,6 +63,7 @@ const Horaires = () => {
             {isSearched ?
                 <div id='results' className='horaires-results'>
                     {horaires.map(horaire => {
+                        console.log("horaire de horaires.map : " + horaire)
                         return (
                             <p className='horaire'>Arrivée : {horaire.arrival} / Départ : {horaire.departure}</p>
                         )
