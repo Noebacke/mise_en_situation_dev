@@ -16,7 +16,7 @@ const Home = () => {
                     <p>Calculer mon trajet</p>
                     <img className='fleche' src={fleche_droite} alt='vers le calcul du trajet' />
                 </Link>
-                <Link to='/contact'>
+                <Link className='link-bloc' to='/contact'>
                     <p>Une idée ? Une demande ? </p>
                     <img className='fleche' src={fleche_droite} alt='vers contact' />
                 </Link>
