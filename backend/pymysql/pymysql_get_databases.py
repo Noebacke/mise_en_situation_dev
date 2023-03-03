@@ -73,9 +73,9 @@ def getTime(start):
 
   mycursor = mydb.cursor()
 
-  mycursor.execute(("SELECT name,arrival FROM STOPS WHERE name=\'%s\'") % start)
+  mycursor.execute(("SELECT id_stop,arrival FROM STOPS WHERE id_stop=\'%s\'") %start)
 
   myresult = mycursor.fetchall()
 
   print(myresult)
-  return myresult
+  return myresult[0]

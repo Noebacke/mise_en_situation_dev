@@ -1,8 +1,8 @@
 import xmltodict
 import json
 import re
-from datetime import timedelta
 from pymysql.pymysql_get_databases import createTable,deleteTable,insertData,getTime
+from datetime import datetime, timedelta
 
 
 with open('./data/BORDEAUX_METROPOLE_offre_Bus_TBM_BordeauxM_tropole__95_95.xml', encoding='utf-8') as file:
@@ -46,16 +46,16 @@ for trajet in Trajets:
     trajetTypeRef = trajet['dayTypes']['DayTypeRef']['@ref']
 
     if '1101100' in trajetTypeRef:
-        type = "lundi-mardi-jeudi-vendredi"
+        type_ = "lundi-mardi-jeudi-vendredi"
     else:
         if '0010000' in trajetTypeRef:
-            type = "mercredi"
+            type_ = "mercredi"
         else:
-            type = "toute la semaine"
+            type_ = "toute la semaine"
 
     currentTrajet = trajet['passingTimes']['TimetabledPassingTime']
 
-    trajetsTab.append({"id": t, "type": type, "destination": trajetName,
+    trajetsTab.append({"id": t, "type": type_, "destination": trajetName,
                       "horaires": []})
 
     for horaire in currentTrajet:
@@ -147,5 +147,9 @@ def returnTimeOftravel(start,end):
     timeStart = getTime(start)
     timeEnd = getTime(end)
 
-    delta = timeEnd - timeStart
-    return timedelta(seconds=delta)
+    time_object_start = datetime.strptime(timeStart[1], '%H:%M:%S').time()
+    time_object_end = datetime.strptime(timeEnd[1], '%H:%M:%S').time()
+
+    delta = timedelta(hours = time_object_end.hour - time_object_start.hour, minutes = time_object_end.minute - time_object_start.minute, seconds = time_object_end.second - time_object_start.second)
+
+    return int(delta.total_seconds())
