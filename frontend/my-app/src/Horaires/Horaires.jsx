@@ -128,7 +128,7 @@ const Horaires = () => {
                 {isTransportSelected ?
                     <div id='results' className='directions'>
                         <Select className='select' options={directions} onChange={(e) => {
-                            getDirectionValue(e); findStopsByDirection(horaires); showStops();
+                            getDirectionValue(e); showStops();
                         }} />
                     </div>
                     :
